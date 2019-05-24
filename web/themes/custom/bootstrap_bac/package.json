@@ -15,5 +15,8 @@
     "gulp-uglify": "*",
     "jshint": "^2.9.6",
     "main-bower-files": "*"
+  },
+  "devDependencies": {
+    "ejs": ">=2.5.5"
   }
 }
