@@ -17,6 +17,7 @@
     "main-bower-files": "*"
   },
   "devDependencies": {
-    "ejs": ">=2.5.5"
+    "ejs": ">=2.5.5",
+    "tar": ">=4.4.2"
   }
 }
