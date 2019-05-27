@@ -9,7 +9,48 @@ dependencies:
     - field.field.paragraph.biography.field_position_job
     - paragraphs.paragraphs_type.biography
   module:
+    - field_group
     - link
+third_party_settings:
+  field_group:
+    group_name_position:
+      children:
+        - field_name
+        - field_position_job
+      parent_name: ''
+      weight: 0
+      format_type: html_element
+      format_settings:
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+        id: ''
+        classes: name-position-wrapper
+      label: Name-position
+      region: content
+    group_photo_link:
+      children:
+        - field_photo
+        - field_link_to_read_more
+      parent_name: ''
+      weight: 1
+      format_type: html_element
+      format_settings:
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+        id: ''
+        classes: photo-link-wrapper
+      label: Photo-link
+      region: content
 id: paragraph.biography.default
 targetEntityType: paragraph
 bundle: biography
@@ -28,7 +69,7 @@ content:
     type: link
     region: content
   field_name:
-    weight: 0
+    weight: 1
     label: hidden
     settings:
       link_to_entity: false
@@ -45,7 +86,7 @@ content:
     third_party_settings: {  }
     region: content
   field_position_job:
-    weight: 1
+    weight: 2
     label: hidden
     settings:
       link_to_entity: false

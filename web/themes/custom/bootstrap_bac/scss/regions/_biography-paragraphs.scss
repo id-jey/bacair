@@ -1,0 +1,49 @@
+.field--name-field-biography-item {
+  .paragraph--type--biography {
+    background-image: url("../images/background-paragraph-biography.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    display: flex;
+    margin-bottom: 16px;
+    justify-content: space-between;
+    .photo-link-wrapper {
+      position: relative;
+      .field--name-field-link-to-read-more {
+        position: absolute;
+        bottom: 9px;
+        left: 20px;
+      }
+      .field--name-field-media-image {
+        .img-responsive {
+          border-bottom-right-radius: 15px;
+          border-top-right-radius: 15px;
+        }
+      }
+      .field--name-field-link-to-read-more {
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 0 7px;
+        border-radius: 3px;
+        background: $red-title;
+        a {
+          color: rgb(255, 255, 255);
+          font-size: 1.3rem;
+        }
+      }
+    }
+    .name-position-wrapper {
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      text-transform: uppercase;
+      padding: 52px 15px;
+      .field--name-field-name {
+        font-size: $node-title-font-size;
+
+      }
+    }
+  }
+}
