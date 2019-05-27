@@ -1,0 +1,21 @@
+uuid: 39ace3c3-3bd8-4fee-b8c5-b3a4930997e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_body
+    - node.type.publications
+  module:
+    - text
+id: node.publications.field_body
+field_name: field_body
+entity_type: node
+bundle: publications
+label: Body
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
