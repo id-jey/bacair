@@ -8,7 +8,9 @@
   .view-content {
     display: flex;
     flex-wrap: wrap;
+    margin-right: 18px;
     .views-row {
+      min-width: 300px;
       position: relative;
       background: $category-view-bg;
       width: 48%;

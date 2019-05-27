@@ -10,8 +10,8 @@ dependencies:
     - bootstrap_bac
 id: airlinedevelopment
 theme: bootstrap_bac
-region: sidebar_second
-weight: 0
+region: wrapper_menu_content
+weight: -6
 provider: null
 plugin: 'system_menu_block:airline-development'
 settings:

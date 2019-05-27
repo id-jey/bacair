@@ -281,8 +281,27 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: corporate/about-us
+      path: corporate/about
       display_description: ''
+      enabled: false
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.body'
+  page_2:
+    display_plugin: page
+    id: page_2
+    display_title: 'About us block'
+    position: 2
+    display_options:
+      display_extenders: {  }
+      display_description: ''
+      path: corporate/about-us
     cache_metadata:
       max-age: -1
       contexts:

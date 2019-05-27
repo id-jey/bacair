@@ -1,16 +1,18 @@
-.region-sidebar-second {
-  padding: 0;
-  margin: 0;
-  width: 300px;
-  border: none;
-  border-radius: 5px;
-  background: linear-gradient(to bottom, rgba(228, 228, 228, 0.8), #ffffff);
-
+#block-wrappermenucontent {
   #block-aboutus {
     @include sidebar-menu($red-title);
+    width: 866px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, rgba(228, 228, 228, 0.8), #ffffff);
   }
 
   #block-airlinedevelopment {
     @include sidebar-menu($orange-title);
+    background: linear-gradient(to bottom, rgba(228, 228, 228, 0.8), #ffffff);
+    border-radius: 5px;
+    min-width: 300px;
   }
 }

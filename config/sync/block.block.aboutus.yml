@@ -10,7 +10,7 @@ dependencies:
     - bootstrap_bac
 id: aboutus
 theme: bootstrap_bac
-region: sidebar_second
+region: wrapper_menu_content
 weight: -7
 provider: null
 plugin: 'system_menu_block:about-us'

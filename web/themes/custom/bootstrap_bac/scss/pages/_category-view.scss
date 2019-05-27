@@ -1,11 +1,17 @@
 .region-content {
+  #block-wrappermenucontent {
+    @include custom-container();
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    .view {
+      &.view-about-us {
+        @include category-view($red-title);
+      }
 
-  .view {
-    &.view-about-us {
-      @include category-view($red-title);
-    }
-    &.view-airline-development {
-      @include category-view($orange-title);
+      &.view-airline-development {
+        @include category-view($orange-title);
+      }
     }
   }
 }
