@@ -1,0 +1,30 @@
+uuid: 8790cdd9-7c8d-4f65-9322-666941d18866
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.about-us
+  module:
+    - system
+  theme:
+    - bootstrap_bac
+id: aboutus
+theme: bootstrap_bac
+region: sidebar_second
+weight: -7
+provider: null
+plugin: 'system_menu_block:about-us'
+settings:
+  id: 'system_menu_block:about-us'
+  label: 'About us'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    pages: /corporate/about-us
+    negate: false
+    context_mapping: {  }
