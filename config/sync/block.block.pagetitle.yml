@@ -1,0 +1,18 @@
+uuid: ef25561f-912b-4880-9de9-9718daef121a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bootstrap_bac
+id: pagetitle
+theme: bootstrap_bac
+region: content
+weight: -8
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }
