@@ -1,0 +1,28 @@
+uuid: 3c3e37c7-841a-4ffe-a30f-f832c15d9123
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.business_opportunities.body
+    - node.type.business_opportunities
+  module:
+    - text
+    - user
+id: node.business_opportunities.default
+targetEntityType: node
+bundle: business_opportunities
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
