@@ -1,0 +1,22 @@
+uuid: 21bfbd37-a959-4024-b6d7-54623785c53d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.airline_development
+  module:
+    - text
+id: node.airline_development.body
+field_name: body
+entity_type: node
+bundle: airline_development
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
