@@ -1,0 +1,38 @@
+.about-us {
+  .field--type-text-with-summary {
+    margin-bottom: 16px;
+  }
+  .title-node {
+    span {
+      color: $red-title;
+    }
+  }
+}
+.general-node {
+  @include custom-container();
+  background-color: $background-node-color;
+  padding: 20px 16px 55px;
+  border-radius: 8px;
+  .title-node {
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: $node-title-font-size;
+    font-weight: 600;
+  }
+}
+.airline-development {
+  .title-node {
+    span {
+      color: $orange-title;
+    }
+  }
+}
+.region-content {
+  background-image: url("../images/background-main-content.png");
+  background-position: center;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  background-repeat: repeat-x;
+  background-size: 19px 100%;
+}
