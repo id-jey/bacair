@@ -1,0 +1,22 @@
+uuid: 1de22f79-5dd8-48ec-8e89-c825e4173c00
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.business_opportunities
+  module:
+    - text
+id: node.business_opportunities.body
+field_name: body
+entity_type: node
+bundle: business_opportunities
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
