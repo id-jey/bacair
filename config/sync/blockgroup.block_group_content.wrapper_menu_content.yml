@@ -1,0 +1,6 @@
+uuid: da3c1c0f-179a-472e-9d1d-472e03f5731c
+langcode: en
+status: true
+dependencies: {  }
+id: wrapper_menu_content
+label: 'Wrapper menu-content'

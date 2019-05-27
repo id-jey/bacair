@@ -1,0 +1,28 @@
+uuid: b4faa793-77a4-4eab-9483-21a16a79022d
+langcode: en
+status: true
+dependencies:
+  config:
+    - blockgroup.block_group_content.wrapper_menu_content
+  module:
+    - blockgroup
+    - system
+  theme:
+    - bootstrap_bac
+id: wrappermenucontent
+theme: bootstrap_bac
+region: content
+weight: 0
+provider: null
+plugin: 'block_group:da3c1c0f-179a-472e-9d1d-472e03f5731c'
+settings:
+  id: 'block_group:da3c1c0f-179a-472e-9d1d-472e03f5731c'
+  label: 'Wrapper menu-content'
+  provider: blockgroup
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "/corporate/airline-development\r\n/corporate/about-us"
+    negate: false
+    context_mapping: {  }
