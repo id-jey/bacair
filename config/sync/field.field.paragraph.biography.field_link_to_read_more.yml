@@ -1,0 +1,23 @@
+uuid: 30a9ca12-3f43-47a2-91b8-87f1ec88e397
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_link_to_read_more
+    - paragraphs.paragraphs_type.biography
+  module:
+    - link
+id: paragraph.biography.field_link_to_read_more
+field_name: field_link_to_read_more
+entity_type: paragraph
+bundle: biography
+label: 'Link to read more'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

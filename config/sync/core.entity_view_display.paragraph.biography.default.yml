@@ -1,0 +1,55 @@
+uuid: 2f4e18ac-ffed-42dd-bc76-98964b9c85cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.biography.field_link_to_read_more
+    - field.field.paragraph.biography.field_name
+    - field.field.paragraph.biography.field_photo
+    - field.field.paragraph.biography.field_position_job
+    - paragraphs.paragraphs_type.biography
+  module:
+    - link
+id: paragraph.biography.default
+targetEntityType: paragraph
+bundle: biography
+mode: default
+content:
+  field_link_to_read_more:
+    weight: 3
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_name:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_photo:
+    type: entity_reference_entity_view
+    weight: 2
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_position_job:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

@@ -1,0 +1,9 @@
+uuid: 72470868-6154-48fd-92e4-47a1b62a8c2c
+langcode: en
+status: true
+dependencies: {  }
+id: biography
+label: Biography
+icon_uuid: null
+description: 'Paragraph with Title, Description, Image and Link'
+behavior_plugins: {  }

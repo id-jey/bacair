@@ -1,0 +1,19 @@
+uuid: 371f9446-0361-4603-b0ec-fab39bc68f1b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_position_job
+    - paragraphs.paragraphs_type.biography
+id: paragraph.biography.field_position_job
+field_name: field_position_job
+entity_type: paragraph
+bundle: biography
+label: Position-job
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

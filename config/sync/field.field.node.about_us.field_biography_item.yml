@@ -1,0 +1,31 @@
+uuid: 8e8578ec-3c33-4a8d-a471-bb9f929f2669
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_biography_item
+    - node.type.about_us
+    - paragraphs.paragraphs_type.biography
+  module:
+    - entity_reference_revisions
+id: node.about_us.field_biography_item
+field_name: field_biography_item
+entity_type: node
+bundle: about_us
+label: 'Biography item'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      biography: biography
+    target_bundles_drag_drop:
+      biography:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions
