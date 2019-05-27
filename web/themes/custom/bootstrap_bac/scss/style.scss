@@ -1,3 +1,9 @@
+// Mixins.
+@import "global/mixins";
+
+// Global.
+@import "global/global";
+
 // Variables.
 @import 'global/mixins';
 @import 'global/variables';
@@ -5,6 +11,8 @@
 
 // Pages.
 @import 'pages/node-title-description';
+@import "pages/category-view";
 
 // Regions.
 @import 'regions/biography-paragraphs';
+@import "regions/sidebar-menu";

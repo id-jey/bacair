@@ -1,0 +1,11 @@
+.region-content {
+
+  .view {
+    &.view-about-us {
+      @include category-view($red-title);
+    }
+    &.view-airline-development {
+      @include category-view($orange-title);
+    }
+  }
+}
