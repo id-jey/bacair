@@ -1,0 +1,28 @@
+uuid: 55703615-6474-4b43-b419-c7277dbbab8b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.airline_development.body
+    - node.type.airline_development
+  module:
+    - text
+    - user
+id: node.airline_development.default
+targetEntityType: node
+bundle: airline_development
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -1,0 +1,30 @@
+uuid: cc1846ca-de18-4f7a-8ceb-72c123a3f9f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.airline-development
+  module:
+    - system
+  theme:
+    - bootstrap_bac
+id: airlinedevelopment
+theme: bootstrap_bac
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'system_menu_block:airline-development'
+settings:
+  id: 'system_menu_block:airline-development'
+  label: 'Airline development'
+  provider: system
+  label_display: visible
+  level: 2
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    pages: "/corporate/airline-development\r\n/corporate/airline-development/*"
+    negate: false
+    context_mapping: {  }
