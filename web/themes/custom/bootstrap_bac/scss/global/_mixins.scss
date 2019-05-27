@@ -1,0 +1,98 @@
+@mixin custom-container() {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 942px;
+}
+
+@mixin category-view($category-color) {
+  .view-content {
+    display: flex;
+    flex-wrap: wrap;
+    .views-row {
+      position: relative;
+      background: $category-view-bg;
+      width: 48%;
+      padding: 10px 15px 15px;
+      margin-right: 18px;
+      margin-bottom: 18px;
+      border-radius: 5px;
+      border-bottom: 1px solid #b7b7b7;
+      border-right: 1px solid #b7b7b7;
+      min-height: 145px;
+      &:nth-child(2n) {
+        margin-right: 0;
+      }
+      .views-field-title {
+        font-size: 2rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        a {
+          text-decoration: none;
+          color: $category-color;
+          &:hover {
+            color: $category-color;
+          }
+        }
+      }
+      .views-field-body {
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+        margin-bottom: 50px;
+      }
+      .views-field-view-node {
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+        position: absolute;
+        bottom: 15px;
+        a {
+          color: white;
+          text-transform: uppercase;
+          text-decoration: none;
+          font-weight: 600;
+          padding: 4px 5px;
+          border-radius: 3px;
+          background: $category-color;
+        }
+      }
+    }
+    *::selection {
+      background: $category-color;
+      color: white;
+    }
+  }
+}
+
+@mixin sidebar-menu($category-color) {
+  h2 {
+    margin: 0;
+    padding: 17px 0 7px 17px;
+    background: url("../images/menu-border.png") no-repeat 18px bottom;
+    color: $category-color;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .menu {
+    padding: 0 0 13px 27px;
+    li {
+      a {
+        color: $menu-link-color;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1.1rem;
+        padding: 10px 0 7px 0;
+        background: url("../images/menu-border.png") no-repeat left bottom;
+        &:hover {
+          color: $category-color;
+        }
+        &.is-active {
+          color: #333;
+        }
+      }
+    }
+  }
+  *::selection {
+    background: $category-color;
+    color: white;
+  }
+}
