@@ -1,0 +1,30 @@
+uuid: 55e73b72-ab44-4cd3-95a9-f9e2cd7c7b37
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.business_opportunities.body
+    - node.type.business_opportunities
+  module:
+    - text
+    - user
+id: node.business_opportunities.teaser
+targetEntityType: node
+bundle: business_opportunities
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
