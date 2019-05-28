@@ -20,7 +20,7 @@ panes:
       previous_link: never
       next_link: never
       last_link: never
-      widget_resize: false
+      widget_resize: true
       widget_button: 'no'
       tags:
         pages:
@@ -42,7 +42,7 @@ panes:
           previous_reader: 'Previous page'
           next_reader: 'Next page'
           last_reader: 'Last page'
-          widget_title: 'Enter page, then press Return.'
+          widget_title: ''
   right:
     style: standard
     config:

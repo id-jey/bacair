@@ -1,6 +1,6 @@
 uuid: 94c2ba08-be3f-49b7-a859-9a7571a033e8
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - views.view.publications
