@@ -17,9 +17,53 @@
   }
   .view-content {
     .views-row {
+      margin-top: 20px;
       .views-field-field-promo-image {
         float: left;
         margin-right: 10px;
+      }
+      .views-field-created {
+        display: table;
+        color: $pink-title;
+        font-weight: 600;
+        margin: 0;
+        line-height: 1rem;
+      }
+      .views-field-title {
+        display: table;
+        padding-top: 5px;
+        font-size: 1.6rem;
+        line-height: 1.6rem;
+        font-weight: 600;
+
+        a {
+          color: $node-btn-black;
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+      .views-field-field-body {
+        font-size: 1.3rem;
+        margin: 10px 0;
+      }
+
+      .views-field-view-node {
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+        text-align: right;
+        border-bottom: 1px solid #c5c5c5;
+        padding-bottom: 15px;
+        a {
+          display: inline-block;
+          color: white;
+          text-transform: uppercase;
+          text-decoration: none;
+          font-weight: 600;
+          padding: 4px;
+          border-radius: 3px;
+          background: $pink-title;
+        }
       }
     }
   }

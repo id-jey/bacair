@@ -2,16 +2,19 @@
   #block-wrappermenucontent {
     @include custom-container();
     display: flex;
-    flex-direction: row-reverse;
     justify-content: space-between;
-    .view {
-      &.view-about-us {
-        @include category-view($red-title);
-      }
-
-      &.view-airline-development {
-        @include category-view($orange-title);
-      }
-    }
+  }
+  // Business-opportunities component.
+  #block-views-block-business-opportunities-block-1 {
+    @include category-view($orange-title);
+  }
+  // Airline-development component.
+  #block-views-block-airline-development-block-1 {
+    width: 100%;
+    @include category-view($orange-title);
+  }
+  // About-us component.
+  #block-views-block-about-us-block-block-1 {
+    @include category-view($red-title);
   }
 }

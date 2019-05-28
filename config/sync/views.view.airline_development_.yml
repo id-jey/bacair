@@ -1,4 +1,4 @@
-uuid: b8084c2e-0ef0-4f87-8946-935625f537f4
+uuid: e4c64986-dc77-4435-a5d9-cf684beabc46
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
     - node
     - text
     - user
-id: airline_development
+id: airline_development_
 label: 'Airline development'
 module: views
 description: ''
@@ -52,7 +52,7 @@ display:
       pager:
         type: some
         options:
-          items_per_page: 10
+          items_per_page: 1
           offset: 0
       style:
         type: default
@@ -258,7 +258,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: 'Airline development'
+      title: ''
       header: {  }
       footer: {  }
       empty: {  }
@@ -274,14 +274,14 @@ display:
         - user.permissions
       tags:
         - 'config:field.storage.node.body'
-  page_1:
-    display_plugin: page
-    id: page_1
-    display_title: Page
+  block_1:
+    display_plugin: block
+    id: block_1
+    display_title: 'Airline development Block'
     position: 1
     display_options:
       display_extenders: {  }
-      path: corporate/airline-development
+      display_description: ''
     cache_metadata:
       max-age: -1
       contexts:
