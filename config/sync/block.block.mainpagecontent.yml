@@ -1,6 +1,6 @@
 uuid: a943e709-882d-4abb-81af-89b80d9d9cde
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -9,7 +9,7 @@ dependencies:
 id: mainpagecontent
 theme: bootstrap_bac
 region: wrapper_menu_content
-weight: -9
+weight: -11
 provider: null
 plugin: system_main_block
 settings:
