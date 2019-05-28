@@ -10,7 +10,7 @@ _core:
   default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
 id: bootstrap_bac_content
 theme: bootstrap_bac
-region: wrapper_menu_content
+region: content
 weight: -8
 provider: null
 plugin: system_main_block
@@ -19,4 +19,9 @@ settings:
   label: 'Main page content'
   provider: system
   label_display: '0'
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: "/corporate/airline-development\r\n/corporate/about-us"
+    negate: true
+    context_mapping: {  }

@@ -17,7 +17,7 @@ bundle: publications
 mode: default
 content:
   field_back_to_publications:
-    weight: 2
+    weight: 3
     label: hidden
     settings:
       trim_length: 80

@@ -1,0 +1,26 @@
+.view-publications {
+  @include custom-container;
+  .view-header {
+    margin-bottom: 30px;
+    .pub-page-sub-title {
+      font-size: 2rem;
+      text-transform: uppercase;
+      color: $pink-title;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+
+    .pub-page-sub-slogan {
+      font-size: 1.3rem;
+      margin-bottom: 15px;
+    }
+  }
+  .view-content {
+    .views-row {
+      .views-field-field-promo-image {
+        float: left;
+        margin-right: 10px;
+      }
+    }
+  }
+}

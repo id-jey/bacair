@@ -282,7 +282,7 @@ display:
             suffix: ''
             target: ''
             nl2br: false
-            max_length: 300
+            max_length: 600
             word_boundary: true
             ellipsis: false
             more_link: false
@@ -420,8 +420,8 @@ display:
           empty: true
           tokenize: false
           content:
-            value: 'You can find the latest updates about Bahrain Airport Company and Bahrain International Airport within this section.'
-            format: basic_html
+            value: "<div class=\"pub-page-sub-title\">Publications</div>\r\n<p class=\"pub-page-sub-slogan\">You can find the latest updates about\r\n      Bahrain Airport Company and Bahrain International Airport within this\r\n      section.\r\n</p>"
+            format: full_html
           plugin_id: text
       footer: {  }
       empty: {  }
@@ -442,10 +442,30 @@ display:
   block_1:
     display_plugin: block
     id: block_1
-    display_title: Block
+    display_title: 'Publications Block'
     position: 1
     display_options:
       display_extenders: {  }
+      display_description: ''
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_body'
+        - 'config:field.storage.node.field_promo_image'
+  page_1:
+    display_plugin: page
+    id: page_1
+    display_title: Page
+    position: 2
+    display_options:
+      display_extenders: {  }
+      path: corporate/media-center/publications
     cache_metadata:
       max-age: -1
       contexts:
