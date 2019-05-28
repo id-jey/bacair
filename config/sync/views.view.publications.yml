@@ -282,7 +282,7 @@ display:
             suffix: ''
             target: ''
             nl2br: false
-            max_length: 600
+            max_length: 700
             word_boundary: true
             ellipsis: false
             more_link: false
