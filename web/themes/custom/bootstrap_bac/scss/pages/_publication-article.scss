@@ -1,0 +1,66 @@
+.publications {
+  .pub-page-sub-title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: $pink-title;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  .pub-page-sub-slogan {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+  }
+
+  .pub-page-date {
+    color: $pink-title;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  .title-node {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .content {
+    .field--name-field-body {
+      font-size: 1.3rem;
+      margin: 10px 0 20px;
+      padding-bottom: 30px;
+      border-bottom: 1px solid #c5c5c5;
+    }
+
+    .printlink {
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 4px 5px;
+      border-radius: 3px;
+      color: #fff;
+      background: $node-btn-black;
+      font-size: 1.3rem;
+      line-height: 1.3rem;
+      .glyphicon {
+        padding-left: 7px;
+        padding-right: 3px;
+      }
+    }
+
+    .field--name-field-back-to-publications {
+      font-size: 1.3rem;
+      line-height: 1.3rem;
+      float: right;
+      a {
+        display: inline-block;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 4px 5px;
+        border-radius: 3px;
+        background: $pink-title;
+      }
+    }
+  }
+}

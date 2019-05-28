@@ -21,7 +21,8 @@
     font-weight: 600;
   }
 }
-.airline-development {
+.airline-development,
+.business-opportunities {
   .title-node {
     span {
       color: $orange-title;
@@ -35,4 +36,19 @@
   padding-bottom: 50px;
   background-repeat: repeat-x;
   background-size: 19px 100%;
+}
+.business-opportunities {
+  .par a {
+    color: $orange-title;
+    text-decoration: none;
+    &:hover {
+      color: $red-title;
+    }
+  }
+  .par-sec {
+    .click-link {
+      border-bottom: 1px solid $red-title;
+      text-decoration: none;
+    }
+  }
 }

@@ -17,4 +17,7 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  field_back_to_publications: true
+  field_body: true
+  field_promo_image: true

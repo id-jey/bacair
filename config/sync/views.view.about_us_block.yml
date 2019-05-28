@@ -1,19 +1,16 @@
-uuid: 2c807557-414e-4d58-99e7-9a8202ceb7f0
+uuid: 17386654-647b-468e-a010-2e25e3401db9
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_body
-    - field.storage.node.field_promo_image
-    - image.style.media_library
-    - node.type.publications
+    - field.storage.node.body
+    - node.type.about_us
   module:
-    - media
     - node
     - text
     - user
-id: publications
-label: Publications
+id: about_us_block
+label: 'About us block'
 module: views
 description: ''
 tag: ''
@@ -53,162 +50,15 @@ display:
           sort_asc_label: Asc
           sort_desc_label: Desc
       pager:
-        type: full
+        type: some
         options:
-          items_per_page: 5
+          items_per_page: 3
           offset: 0
-          id: 0
-          total_pages: null
-          expose:
-            items_per_page: false
-            items_per_page_label: 'Items per page'
-            items_per_page_options: '5, 10, 25, 50'
-            items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
-            offset: false
-            offset_label: Offset
-          tags:
-            previous: '‹ Previous'
-            next: 'Next ›'
-            first: '« First'
-            last: 'Last »'
-          quantity: 9
       style:
         type: default
       row:
         type: fields
       fields:
-        field_promo_image:
-          id: field_promo_image
-          table: node__field_promo_image
-          field: field_promo_image
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: ''
-          exclude: false
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: target_id
-          type: media_thumbnail
-          settings:
-            image_style: media_library
-            image_link: content
-          group_column: target_id
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
-          plugin_id: field
-        created:
-          id: created
-          table: node_field_data
-          field: created
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: ''
-          exclude: false
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: value
-          type: timestamp
-          settings:
-            date_format: custom
-            custom_date_format: 'd M Y'
-            timezone: ''
-          group_column: value
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
-          entity_type: node
-          entity_field: created
-          plugin_id: field
         title:
           id: title
           table: node_field_data
@@ -256,10 +106,10 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
-        field_body:
-          id: field_body
-          table: node__field_body
-          field: field_body
+        body:
+          id: body
+          table: node__body
+          field: body
           relationship: none
           group_type: group
           admin_label: ''
@@ -282,9 +132,9 @@ display:
             suffix: ''
             target: ''
             nl2br: false
-            max_length: 600
+            max_length: 120
             word_boundary: true
-            ellipsis: false
+            ellipsis: true
             more_link: false
             more_link_text: ''
             more_link_path: ''
@@ -388,7 +238,7 @@ display:
           table: node_field_data
           field: type
           value:
-            publications: publications
+            about_us: about_us
           entity_type: node
           entity_field: type
           plugin_id: bundle
@@ -408,21 +258,8 @@ display:
           expose:
             label: ''
           granularity: second
-      title: Publications
-      header:
-        area:
-          id: area
-          table: views
-          field: area
-          relationship: none
-          group_type: group
-          admin_label: ''
-          empty: true
-          tokenize: false
-          content:
-            value: "<div class=\"pub-page-sub-title\">Publications</div>\r\n<p class=\"pub-page-sub-slogan\">You can find the latest updates about\r\n      Bahrain Airport Company and Bahrain International Airport within this\r\n      section.\r\n</p>"
-            format: full_html
-          plugin_id: text
+      title: ''
+      header: {  }
       footer: {  }
       empty: {  }
       relationships: {  }
@@ -433,16 +270,14 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
-        - url.query_args
         - 'user.node_grants:view'
         - user.permissions
       tags:
-        - 'config:field.storage.node.field_body'
-        - 'config:field.storage.node.field_promo_image'
+        - 'config:field.storage.node.body'
   block_1:
     display_plugin: block
     id: block_1
-    display_title: 'Publications Block'
+    display_title: 'Abou us block'
     position: 1
     display_options:
       display_extenders: {  }
@@ -452,28 +287,7 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
-        - url.query_args
         - 'user.node_grants:view'
         - user.permissions
       tags:
-        - 'config:field.storage.node.field_body'
-        - 'config:field.storage.node.field_promo_image'
-  page_1:
-    display_plugin: page
-    id: page_1
-    display_title: Page
-    position: 2
-    display_options:
-      display_extenders: {  }
-      path: corporate/media-center/publications
-    cache_metadata:
-      max-age: -1
-      contexts:
-        - 'languages:language_content'
-        - 'languages:language_interface'
-        - url.query_args
-        - 'user.node_grants:view'
-        - user.permissions
-      tags:
-        - 'config:field.storage.node.field_body'
-        - 'config:field.storage.node.field_promo_image'
+        - 'config:field.storage.node.body'

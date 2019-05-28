@@ -1,0 +1,30 @@
+uuid: b552b915-d061-44e0-9461-4691cb4acb7c
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.airline_development_
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap_bac
+id: views_block__airline_development__block_1
+theme: bootstrap_bac
+region: wrapper_menu_content
+weight: -8
+provider: null
+plugin: 'views_block:airline_development_-block_1'
+settings:
+  id: 'views_block:airline_development_-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /corporate/airline-development
+    negate: false
+    context_mapping: {  }
