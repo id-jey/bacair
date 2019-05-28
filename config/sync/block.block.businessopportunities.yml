@@ -1,22 +1,22 @@
-uuid: 8790cdd9-7c8d-4f65-9322-666941d18866
+uuid: 590c3819-d251-4343-ae92-62a455e30a4d
 langcode: en
 status: true
 dependencies:
   config:
-    - system.menu.about-us
+    - system.menu.business-opportunities
   module:
     - system
   theme:
     - bootstrap_bac
-id: aboutus
+id: businessopportunities
 theme: bootstrap_bac
 region: wrapper_menu_content
-weight: -9
+weight: -5
 provider: null
-plugin: 'system_menu_block:about-us'
+plugin: 'system_menu_block:business-opportunities'
 settings:
-  id: 'system_menu_block:about-us'
-  label: 'About us'
+  id: 'system_menu_block:business-opportunities'
+  label: 'Business opportunities'
   provider: system
   label_display: visible
   level: 1
@@ -25,6 +25,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /corporate/about-us
+    pages: /corporate/business-opportunities
     negate: false
     context_mapping: {  }

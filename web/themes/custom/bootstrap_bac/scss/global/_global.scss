@@ -10,9 +10,7 @@
   padding-right: 0;
   padding-left: 0;
 }
-/*
-.main-container {
-  .row {
-    @include custom-container;
-  }
-}*/
+.clearfix:after,
+.clearfix:before {
+  content: none;
+}

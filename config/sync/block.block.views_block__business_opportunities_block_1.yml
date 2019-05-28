@@ -1,0 +1,30 @@
+uuid: 00d76cc8-692f-47a6-81d2-efe2e834e8cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.business_opportunities
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap_bac
+id: views_block__business_opportunities_block_1
+theme: bootstrap_bac
+region: wrapper_menu_content
+weight: -6
+provider: null
+plugin: 'views_block:business_opportunities-block_1'
+settings:
+  id: 'views_block:business_opportunities-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /corporate/business-opportunities
+    negate: false
+    context_mapping: {  }
