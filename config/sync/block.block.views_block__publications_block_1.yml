@@ -1,0 +1,30 @@
+uuid: 94c2ba08-be3f-49b7-a859-9a7571a033e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.publications
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap_bac
+id: views_block__publications_block_1
+theme: bootstrap_bac
+region: wrapper_menu_content
+weight: 0
+provider: null
+plugin: 'views_block:publications-block_1'
+settings:
+  id: 'views_block:publications-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /corporate/media-center/publications
+    negate: false
+    context_mapping: {  }
