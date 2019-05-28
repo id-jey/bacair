@@ -17,7 +17,7 @@ id: contact
 title: 'Contact Us'
 description: 'Webform to contact'
 category: ''
-elements: "send_an_email_all_fields_with_an_are_required_:\n  '#type': label\n  '#title': 'Send an email. All fields with an * are required.'\nname:\n  '#type': textfield\n  '#title': Name\n  '#required': true\n  '#default_value': '[current-user:display-name]'\nemail:\n  '#type': email\n  '#title': Email\n  '#required': true\n  '#default_value': '[current-user:mail]'\nsubject:\n  '#title': Subject\n  '#type': textfield\n  '#required': true\n  '#test': 'Testing contact webform from [site:name]'\nmessage:\n  '#title': Message\n  '#type': textarea\n  '#required': true\n  '#test': 'Please ignore this email.'\nactions:\n  '#type': webform_actions\n  '#title': 'Submit button(s)'\n  '#submit__label': 'Send email'\n  '#submit__attributes':\n    class:\n      - send-email-button"
+elements: "select_department:\n  '#type': select\n  '#title': 'Select Department'\n  '#options':\n    giwohaya@mailsource.info: 'Airlines Marketing'\n    y.mykhaliak@internetdevels.com: 'Airport Operation Department'\n    111@idea-mail.com: 'Concessions and leasing'\n    examlple4@gmail.com: 'Corporate Communication Department'\n    examlple5@gmail.com: 'For general inquiries'\n    examlple6@gmail.com: 'Procurements Department'\n  '#empty_option': 'Concessions and leasing'\n  '#empty_value': 111@idea-mail.com\nprocessed_text:\n  '#type': processed_text\n  '#text': \"<div class=\\\"block-selected-department\\\">Concessions and leasing</div>\\r\\n\"\n  '#format': full_html\nsend_an_email_all_fields_with_an_are_required_:\n  '#type': label\n  '#title': 'Send an email. All fields with an * are required.'\nname:\n  '#type': textfield\n  '#title': Name\n  '#required': true\n  '#default_value': '[current-user:display-name]'\nemail:\n  '#type': email\n  '#title': Email\n  '#required': true\n  '#default_value': '[current-user:mail]'\nsubject:\n  '#title': Subject\n  '#type': textfield\n  '#required': true\n  '#test': 'Testing contact webform from [site:name]'\nmessage:\n  '#title': Message\n  '#type': textarea\n  '#required': true\n  '#test': 'Please ignore this email.'\nactions:\n  '#type': webform_actions\n  '#title': 'Submit button(s)'\n  '#submit__label': 'Send email'\n  '#submit__attributes':\n    class:\n      - send-email-button"
 css: ''
 javascript: ''
 settings:
@@ -240,3 +240,37 @@ handlers:
       return_path: ''
       sender_mail: ''
       sender_name: ''
+  email:
+    id: email
+    label: Email
+    handler_id: email
+    status: true
+    conditions: {  }
+    weight: 2
+    settings:
+      states:
+        - completed
+      to_mail: '[webform_submission:values:select_department:raw]'
+      to_options: {  }
+      cc_mail: ''
+      cc_options: {  }
+      bcc_mail: ''
+      bcc_options: {  }
+      from_mail: _default
+      from_options: {  }
+      from_name: _default
+      subject: _default
+      body: _default
+      excluded_elements: {  }
+      ignore_access: false
+      exclude_empty: true
+      exclude_empty_checkbox: false
+      html: true
+      attachments: false
+      twig: false
+      debug: false
+      reply_to: ''
+      return_path: ''
+      sender_mail: ''
+      sender_name: ''
+      theme_name: ''
