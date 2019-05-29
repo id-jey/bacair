@@ -3,27 +3,37 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.photo_gallery.field_b
     - field.field.node.photo_gallery.field_gallery_photo
+    - image.style.photo_gallery_image
     - node.type.photo_gallery
   module:
     - media
+    - text
     - user
 id: node.photo_gallery.default
 targetEntityType: node
 bundle: photo_gallery
 mode: default
 content:
+  field_b:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
   field_gallery_photo:
     type: media_thumbnail
-    weight: 101
+    weight: 2
     label: hidden
     settings:
-      image_style: ''
+      image_style: photo_gallery_image
       image_link: ''
     third_party_settings: {  }
     region: content
   links:
-    weight: 100
+    weight: 0
     region: content
     settings: {  }
     third_party_settings: {  }

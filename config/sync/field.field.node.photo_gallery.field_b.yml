@@ -1,0 +1,24 @@
+uuid: d5170863-5da5-4ad8-bf0a-5478a579c3f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_b
+    - node.type.photo_gallery
+  module:
+    - text
+id: node.photo_gallery.field_b
+field_name: field_b
+entity_type: node
+bundle: photo_gallery
+label: 'Back to gallery'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: '<a href="/corporate/media-center/gallery/photo" class="back-to-gallery">Back to gallery</a>'
+    format: full_html
+default_value_callback: ''
+settings: {  }
+field_type: text
