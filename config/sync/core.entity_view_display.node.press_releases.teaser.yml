@@ -1,0 +1,30 @@
+uuid: b6febd41-13ee-467e-8665-21c0fd1efc73
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.press_releases.body
+    - node.type.press_releases
+  module:
+    - text
+    - user
+id: node.press_releases.teaser
+targetEntityType: node
+bundle: press_releases
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
