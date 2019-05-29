@@ -1,0 +1,86 @@
+uuid: d154b34f-153b-4f05-af8e-a1d19a34820a
+langcode: en
+status: true
+dependencies: {  }
+id: goto_pager
+label: 'Goto pager'
+panes:
+  left:
+    style: none
+    config: {  }
+  center:
+    style: mini
+    config:
+      display_mode: widget
+      display: pages
+      display_restriction: 2
+      prefix_display: true
+      suffix_display: true
+      first_link: never
+      previous_link: never
+      next_link: never
+      last_link: never
+      widget_resize: true
+      widget_button: 'no'
+      tags:
+        pages:
+          prefix_label: 'Go to page'
+          suffix_label: ►
+          page_current: '@number'
+          first: «
+          previous: ‹
+          next: ›
+          last: »
+          pageset_empty: 'No pages to display.'
+          page_current_title: 'Current page'
+          first_title: 'Go to first page'
+          previous_title: 'Go to previous page'
+          next_title: 'Go to next page'
+          last_title: 'Go to last page'
+          page_current_reader: 'Current page'
+          first_reader: 'First page'
+          previous_reader: 'Previous page'
+          next_reader: 'Next page'
+          last_reader: 'Last page'
+          widget_title: ''
+  right:
+    style: standard
+    config:
+      quantity: 10
+      display_mode: normal
+      display: pages
+      display_restriction: 2
+      prefix_display: false
+      suffix_display: false
+      separator_display: false
+      breaker_display: false
+      first_link: never
+      previous_link: never
+      next_link: never
+      last_link: never
+      tags:
+        page_breaker: …
+        page_separator: '|'
+        pages:
+          prefix_label: Page
+          suffix_label: 'of @total'
+          page_current: '@number'
+          page_previous: '@number'
+          page_next: '@number'
+          first: '« First'
+          previous: '‹ Previous'
+          next: 'Next ›'
+          last: 'Last »'
+          pageset_empty: 'No pages to display.'
+          page_current_title: 'Current page'
+          page_title: 'Go to page @number'
+          first_title: 'Go to first page'
+          previous_title: 'Go to previous page'
+          next_title: 'Go to next page'
+          last_title: 'Go to last page'
+          page_current_reader: 'Current page'
+          page_reader: Page
+          first_reader: 'First page'
+          previous_reader: 'Previous page'
+          next_reader: 'Next page'
+          last_reader: 'Last page'

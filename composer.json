@@ -27,6 +27,7 @@
         "drupal/empty_page": "^2.0",
         "drupal/field_group": "^3.0",
         "drupal/mailsystem": "^4.1",
+        "drupal/pagerer": "^1.4",
         "drupal/paragraphs": "^1.8",
         "drupal/swiftmailer": "^1.0",
         "drupal/twig_tweak": "^2.3",
