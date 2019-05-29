@@ -5,10 +5,11 @@ dependencies:
   config:
     - field.field.node.photo_gallery.field_b
     - field.field.node.photo_gallery.field_gallery_photo
+    - image.style.big_image
     - image.style.photo_gallery_image
     - node.type.photo_gallery
   module:
-    - media
+    - photoswipe
     - text
     - user
 id: node.photo_gallery.default
@@ -24,12 +25,17 @@ content:
     type: text_default
     region: content
   field_gallery_photo:
-    type: media_thumbnail
+    type: photoswipe_field_formatter
     weight: 2
     label: hidden
     settings:
-      image_style: photo_gallery_image
-      image_link: ''
+      photoswipe_node_style_first: ''
+      photoswipe_node_style: photo_gallery_image
+      photoswipe_image_style: big_image
+      photoswipe_reference_image_field: field_media_image
+      photoswipe_caption: title
+      photoswipe_caption_custom: ''
+      photoswipe_view_mode: default
     third_party_settings: {  }
     region: content
   links:
