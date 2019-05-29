@@ -1,4 +1,4 @@
-new_id: 5
+new_id: 6
 _core:
   default_config_hash: 1qKVk03zhLAZj-W36dakmXWDO3mx28TRgx9iDzHpqMs
 callback_1:
@@ -26,8 +26,8 @@ callback_4:
   path: /contactus
   page_title: 'Contact Us'
 callback_5:
-  created: 1559043762
+  created: 1559113135
   cid: 5
-  updated: 1559043762
-  path: /corporate/media-center/publications
-  page_title: Publications
+  updated: 1559113135
+  path: /corporate/media-center/gallery/photo
+  page_title: 'Photo gallery'

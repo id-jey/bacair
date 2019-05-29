@@ -1,0 +1,22 @@
+uuid: 60cfdfb8-8e26-43ea-ac10-4d922feeea1c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: photo_gallery_node
+label: 'Photo gallery node'
+type: 'canonical_entities:node'
+pattern: '/corporate/media-center/gallery/photo/[node:title]'
+selection_criteria:
+  9754d353-8f3e-47b8-b5ff-ebc5bbb465cd:
+    id: node_type
+    bundles:
+      photo_gallery: photo_gallery
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 9754d353-8f3e-47b8-b5ff-ebc5bbb465cd
+selection_logic: and
+weight: -5
+relationships: {  }

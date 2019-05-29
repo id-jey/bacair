@@ -1,0 +1,31 @@
+uuid: 1e05a294-a012-47a5-8c4f-47c807d206e1
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.photo_gallery
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap_bac
+id: views_block__photo_gallery_block_2
+theme: bootstrap_bac
+region: wrapper_menu_content
+weight: 0
+provider: null
+plugin: 'views_block:photo_gallery-block_2'
+settings:
+  id: 'views_block:photo_gallery-block_2'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '/corporate/media-center/gallery/photo/*'
+    negate: false
+    context_mapping: {  }
