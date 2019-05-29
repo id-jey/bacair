@@ -17,4 +17,7 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  field_back_to_gallery: true
+  field_gallery_video: true
+  field_video_image: true
