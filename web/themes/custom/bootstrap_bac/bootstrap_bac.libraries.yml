@@ -3,6 +3,10 @@ framework:
     theme:
       css/style.css: {}
 
+  js:
+    javascript/main.js: {}
+  dependencies:
+    - core/jquery
 # Uncomment for LESS source JavaScript files.
 #  js:
 #    bootstrap/js/affix.js: {}
