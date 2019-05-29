@@ -1,4 +1,4 @@
-new_id: 6
+new_id: 9
 _core:
   default_config_hash: 1qKVk03zhLAZj-W36dakmXWDO3mx28TRgx9iDzHpqMs
 callback_1:
@@ -31,3 +31,21 @@ callback_5:
   updated: 1559113135
   path: /corporate/media-center/gallery/photo
   page_title: 'Photo gallery'
+callback_6:
+  created: 1559137724
+  cid: 6
+  updated: 1559137724
+  path: /corporate/media-center
+  page_title: 'Media Center'
+callback_7:
+  created: 1559137772
+  cid: 7
+  updated: 1559137772
+  path: /corporate/media-center/gallery/video
+  page_title: 'Video gallery'
+callback_8:
+  created: 1559137815
+  cid: 8
+  updated: 1559137815
+  path: /corporate/media-center/gallery
+  page_title: Gallery
