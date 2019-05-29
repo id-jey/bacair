@@ -1,17 +1,18 @@
-uuid: 458f58d6-1e5c-408a-b6a5-ea6b38f34d92
+uuid: 7e156696-8f7b-42e9-9be4-a12d25f64625
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.photo_gallery.field_b
-    - field.field.node.photo_gallery.field_gallery_photo
-    - node.type.photo_gallery
+    - field.field.node.video_gallery.field_back_to_gallery
+    - field.field.node.video_gallery.field_gallery_video
+    - field.field.node.video_gallery.field_video_image
+    - node.type.video_gallery
   module:
     - media_library
     - path
-id: node.photo_gallery.default
+id: node.video_gallery.default
 targetEntityType: node
-bundle: photo_gallery
+bundle: video_gallery
 mode: default
 content:
   created:
@@ -20,7 +21,14 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_gallery_photo:
+  field_gallery_video:
+    type: media_library_widget
+    weight: 8
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+    region: content
+  field_video_image:
     type: media_library_widget
     weight: 7
     settings:
@@ -72,4 +80,4 @@ content:
     region: content
     third_party_settings: {  }
 hidden:
-  field_b: true
+  field_back_to_gallery: true
