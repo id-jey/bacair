@@ -1,0 +1,28 @@
+uuid: 9030db17-01e9-4a10-9ca5-7d05bf8ab75e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_video_image
+    - media.type.image
+    - node.type.video_gallery
+id: node.video_gallery.field_video_image
+field_name: field_video_image
+entity_type: node
+bundle: video_gallery
+label: 'Promo image'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

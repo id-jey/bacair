@@ -1,0 +1,22 @@
+uuid: 783e9fa6-27ac-40e4-9689-7734ef31ea95
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: video_gallery_node
+label: 'Video gallery node'
+type: 'canonical_entities:node'
+pattern: '/corporate/media-center/gallery/video/[node:title]'
+selection_criteria:
+  7575cad6-1b76-464b-891c-c7c65268a4a6:
+    id: node_type
+    bundles:
+      video_gallery: video_gallery
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 7575cad6-1b76-464b-891c-c7c65268a4a6
+selection_logic: and
+weight: -5
+relationships: {  }

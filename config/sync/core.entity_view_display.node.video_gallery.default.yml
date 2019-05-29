@@ -1,0 +1,40 @@
+uuid: 40630131-9d4c-43a9-9e6f-93971b63b9c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.video_gallery.field_back_to_gallery
+    - field.field.node.video_gallery.field_gallery_video
+    - field.field.node.video_gallery.field_video_image
+    - node.type.video_gallery
+  module:
+    - text
+    - user
+id: node.video_gallery.default
+targetEntityType: node
+bundle: video_gallery
+mode: default
+content:
+  field_back_to_gallery:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_gallery_video:
+    type: entity_reference_entity_view
+    weight: 2
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_video_image: true
