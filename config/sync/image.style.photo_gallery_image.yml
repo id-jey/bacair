@@ -5,11 +5,18 @@ dependencies: {  }
 name: photo_gallery_image
 label: 'Photo gallery image'
 effects:
-  04f2cdcb-8c1c-486b-90e9-b04c70df7945:
-    uuid: 04f2cdcb-8c1c-486b-90e9-b04c70df7945
-    id: image_scale
+  94b88450-3fb8-4eea-88a5-eb9aba171314:
+    uuid: 94b88450-3fb8-4eea-88a5-eb9aba171314
+    id: image_resize
     weight: 2
     data:
       width: 160
       height: 120
-      upscale: true
+  1d1a6fbd-5311-4b02-9d3c-90b63fc12def:
+    uuid: 1d1a6fbd-5311-4b02-9d3c-90b63fc12def
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 160
+      height: 120
+      anchor: center-center
