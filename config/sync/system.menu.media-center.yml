@@ -1,0 +1,8 @@
+uuid: f6352642-a6ce-466e-a7c2-a7781ba33191
+langcode: en
+status: true
+dependencies: {  }
+id: media-center
+label: 'Media Center'
+description: 'Sidebar menu for Media Center component'
+locked: false
