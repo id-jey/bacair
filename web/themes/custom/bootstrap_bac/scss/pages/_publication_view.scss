@@ -1,4 +1,8 @@
 .view-publications {
+  background: linear-gradient(to bottom, rgba(228, 228, 228, 0.8), #ffffff);
+  padding: 15px;
+  border-radius: 7px;
+  border-bottom: 1px solid #c5c5c5;
   @include custom-container;
   .view-header {
     margin-bottom: 30px;
@@ -17,9 +21,150 @@
   }
   .view-content {
     .views-row {
+      margin-top: 20px;
       .views-field-field-promo-image {
         float: left;
         margin-right: 10px;
+      }
+      .views-field-created {
+        display: table;
+        color: $pink-title;
+        font-weight: 600;
+        margin: 0;
+        line-height: 1rem;
+      }
+      .views-field-title {
+        display: table;
+        padding-top: 5px;
+        font-size: 1.6rem;
+        line-height: 1.6rem;
+        font-weight: 600;
+
+        a {
+          color: $node-btn-black;
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+      .views-field-field-body {
+        font-size: 1.3rem;
+        margin: 10px 0;
+      }
+
+      .views-field-view-node {
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+        text-align: right;
+        border-bottom: 1px solid #c5c5c5;
+        padding-bottom: 15px;
+        a {
+          display: inline-block;
+          color: white;
+          text-transform: uppercase;
+          text-decoration: none;
+          font-weight: 600;
+          padding: 4px;
+          border-radius: 3px;
+          background: $pink-title;
+        }
+      }
+    }
+  }
+
+  .pagerer-panes {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.1rem;
+    .pagerer-center-pane,
+    .pagerer-right-pane {
+      h4 {
+        display: none;
+      }
+      .pager__items {
+        padding: 5px 20px;
+        display: flex;
+        margin: 0;
+        background: #E5E5E5;
+
+        span, a {
+          padding: 0;
+          background: none;
+          border: none;
+          border-radius: 0;
+        }
+
+        .pager__item {
+          &.is-active {
+            a {
+              color: $node-btn-black;
+            }
+          }
+          span {
+            height: 100%;
+            font-weight: 600;
+            color: $node-btn-black;
+            text-transform: uppercase;
+            margin-right: 10px;
+          }
+          .pagerer-page-widget {
+            height: 100%;
+            .pagerer-page {
+              height: 100%;
+              border: none;
+              border-radius: 5px;
+              outline: none;
+              &:focus {
+                background: #fff;
+              }
+              &::selection {
+                background: $pink-title;
+                color: white;
+              }
+            }
+          }
+          &:nth-child(1) {
+            span {
+              vertical-align: -2px;
+            }
+          }
+        }
+      }
+    }
+
+    .pagerer-center-pane {
+      .pager__items {
+        border-radius: 5px 0 0 5px;
+        padding-right: 10px;
+        .pagerer-suffix {
+          margin-left: 5px;
+          font-size: 1.3rem;
+        }
+        .pagerer-prefix {
+          span {
+            font-weight: 700;
+          }
+        }
+      }
+    }
+
+    .pagerer-right-pane {
+      .pager__items {
+        padding-top: 6px;
+        padding-bottom: 5px;
+        padding-left: 0;
+        border-radius: 0 5px 5px 0;
+        .pager__item {
+          margin-right: 10px;
+          &:last-child {
+            margin-right: 0;
+          }
+          a {
+            color: $pink-title;
+            font-size: 1.2rem;
+            font-weight: 600;
+          }
+        }
       }
     }
   }

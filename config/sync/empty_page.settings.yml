@@ -1,21 +1,27 @@
-new_id: 4
+new_id: 5
 _core:
   default_config_hash: 1qKVk03zhLAZj-W36dakmXWDO3mx28TRgx9iDzHpqMs
 callback_1:
-  created: 1559037011
+  created: 1559041533
   cid: 1
-  updated: 1559037011
+  updated: 1559041533
   path: /corporate/business-opportunities
   page_title: 'Business opportunities'
 callback_2:
-  created: 1559038665
+  created: 1559041562
   cid: 2
-  updated: 1559038665
+  updated: 1559041562
   path: /corporate/about-us
   page_title: 'About Us'
 callback_3:
-  created: 1559039299
+  created: 1559041592
   cid: 3
-  updated: 1559039299
+  updated: 1559041592
   path: /corporate/airline-development
   page_title: 'Airline development'
+callback_4:
+  created: 1559043762
+  cid: 4
+  updated: 1559043762
+  path: /corporate/media-center/publications
+  page_title: Publications
