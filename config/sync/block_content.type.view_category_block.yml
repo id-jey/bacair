@@ -1,0 +1,8 @@
+uuid: 76b548c2-90de-4a0a-9add-4499c8797515
+langcode: en
+status: true
+dependencies: {  }
+id: view_category_block
+label: 'View category block'
+revision: 0
+description: 'Block to content of category (title, link, description)'
