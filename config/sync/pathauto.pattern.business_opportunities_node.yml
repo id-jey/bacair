@@ -1,0 +1,22 @@
+uuid: dc6e2e4d-174d-463e-aaa7-e3954ebeeb1e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: business_opportunities_node
+label: 'Business opportunities node'
+type: 'canonical_entities:node'
+pattern: '/corporate/business-opportunities/[node:title]'
+selection_criteria:
+  a1d5140b-910e-409f-bc3d-6930280ba5ed:
+    id: node_type
+    bundles:
+      business_opportunities: business_opportunities
+    negate: false
+    context_mapping:
+      node: node
+    uuid: a1d5140b-910e-409f-bc3d-6930280ba5ed
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -4,22 +4,23 @@
   border-radius: 7px;
   border-bottom: 1px solid #c5c5c5;
   width: 620px;
+  margin-right: 22px;
 
   .pub-page-sub-slogan {
     font-size: 1.3rem;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     padding-right: 40px;
   }
 
   .field--name-field-back-to-gallery {
-    width: 174px;
-    height: 133px;
+    width: 100%;
     background: #fff url("../images/left-arrow.png") no-repeat center;
-    position: absolute;
     z-index: 10;
+    margin-bottom: 20px;
     a {
       display: block;
-      height: 100%;
+      width: 100%;
+      padding: 30px 0;
     }
   }
 
@@ -28,13 +29,17 @@
     flex-wrap: wrap;
 
     .field--item {
-      margin-bottom: 25px;
-
+      margin-bottom: 10px;
+      width: 100%;
 
       .field--name-field-media-oembed-video {
         border: 5px solid #fff;
         width: 100%;
+
         iframe {
+          display: block;
+          height: 320px;
+          width: 100%;
         }
       }
     }

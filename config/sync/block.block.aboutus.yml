@@ -25,6 +25,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /corporate/about-us
+    pages: "/corporate/about-us\r\n/corporate/about-us/*\r\n"
     negate: false
     context_mapping: {  }
