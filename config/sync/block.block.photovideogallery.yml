@@ -11,8 +11,8 @@ dependencies:
     - bootstrap_bac
 id: photovideogallery
 theme: bootstrap_bac
-region: wrapper_menu_content
-weight: -6
+region: category_blocks_wrapper_media_center_
+weight: -16
 provider: null
 plugin: 'block_content:e289fd4d-7c3a-4b9b-9d76-ab934ca6fd40'
 settings:
