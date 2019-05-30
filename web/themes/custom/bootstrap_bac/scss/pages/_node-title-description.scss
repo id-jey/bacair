@@ -1,4 +1,5 @@
-.about-us {
+.about-us,
+.press-releases {
   .field--type-text-with-summary {
     margin-bottom: 16px;
   }
@@ -10,7 +11,7 @@
 }
 .general-node {
   @include custom-container();
-  background-color: $background-node-color;
+  background: linear-gradient(to bottom, rgba(228, 228, 228, 0.8), #ffffff);
   padding: 20px 16px 55px;
   border-radius: 8px;
   .title-node {
@@ -19,6 +20,23 @@
     margin-bottom: 5px;
     font-size: $node-title-font-size;
     font-weight: 600;
+  }
+}
+.filming-photography-node {
+  .title-node {
+    span {
+      color: $pink-title;
+    }
+  }
+  .par-fourth {
+    a {
+      color: $pink-title;
+      text-decoration: none;
+    }
+  }
+  .par-sixth,
+  .par-seventh {
+    margin-left: 15px;
   }
 }
 .airline-development,

@@ -17,7 +17,7 @@ required: true
 translatable: false
 default_value:
   -
-    value: '<a href="/corporate/media-center/gallery/photo" class="back-to-gallery">Back to gallery</a>'
+    value: '<a href="/corporate/media-center/gallery/photo" class="back-to-gallery"></a>'
     format: full_html
 default_value_callback: ''
 settings: {  }
