@@ -1,0 +1,22 @@
+uuid: 5732c30f-1387-4b63-83e6-d06d714ee1a7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: about_us_node
+label: 'About us node'
+type: 'canonical_entities:node'
+pattern: '/corporate/about-us/[node:title]'
+selection_criteria:
+  b8ba7578-29c1-4113-bbe0-1a858e1d219a:
+    id: node_type
+    bundles:
+      about_us: about_us
+    negate: false
+    context_mapping:
+      node: node
+    uuid: b8ba7578-29c1-4113-bbe0-1a858e1d219a
+selection_logic: and
+weight: -5
+relationships: {  }

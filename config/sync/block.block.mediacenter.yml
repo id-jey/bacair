@@ -25,6 +25,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: "/corporate/media-center/*\r\n/corporate/media-center\r\n"
+    pages: "/corporate/media-center/*\r\n/corporate/media-center\r\n/contactus"
     negate: false
     context_mapping: {  }

@@ -1,0 +1,29 @@
+.press-releases {
+  width: 620px;
+  margin-right: 22px;
+  .content {
+    .field--name-field-attached-docs {
+      margin-top: 25px;
+      .field--name-field-media-file {
+        .file > span {
+          border: none;
+          background: none;
+        }
+        .file-icon {
+          .glyphicon-file::before {
+            content: url("../images/pdf-icon.png");
+          }
+        }
+        .file-link a {
+          color: $red-title;
+          font-weight: normal;
+          font-size: 1.2rem;
+          text-decoration: none;
+        }
+        .file-size {
+          display: none;
+        }
+      }
+    }
+  }
+}

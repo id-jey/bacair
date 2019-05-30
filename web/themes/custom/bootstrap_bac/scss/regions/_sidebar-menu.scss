@@ -1,7 +1,8 @@
 #block-wrappermenucontent {
   #block-aboutus {
     @include sidebar-menu($red-title);
-    width: 866px;
+    order: 2;
+    width: 300px;
     padding: 0;
     margin: 0;
     border: none;
@@ -9,16 +10,20 @@
     background: linear-gradient(to bottom, rgba(228, 228, 228, 0.8), #ffffff);
   }
 
-  #block-airlinedevelopment {
-    @include sidebar-menu($orange-title);
+  #block-airlinedevelopment,
+  #block-businessopportunities,
+  #block-mediacenter {
     background: linear-gradient(to bottom, rgba(228, 228, 228, 0.8), #ffffff);
     border-radius: 5px;
     min-width: 300px;
   }
+  #block-mediacenter {
+    order: 2;
+    @include sidebar-menu($pink-title);
+  }
+  #block-airlinedevelopment,
   #block-businessopportunities {
+    order: 2;
     @include sidebar-menu($orange-title);
-    background: linear-gradient(to bottom, rgba(228, 228, 228, 0.8), #ffffff);
-    border-radius: 5px;
-    min-width: 300px;
   }
 }

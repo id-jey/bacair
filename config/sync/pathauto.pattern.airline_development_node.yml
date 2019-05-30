@@ -1,0 +1,22 @@
+uuid: 18255be8-8040-4101-94da-3ee184e9a382
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: airline_development_node
+label: 'Airline development node'
+type: 'canonical_entities:node'
+pattern: '/corporate/airline-development/[node:title]'
+selection_criteria:
+  f580133d-5816-4d29-bc7e-ea90cc91f4e4:
+    id: node_type
+    bundles:
+      airline_development: airline_development
+    negate: false
+    context_mapping:
+      node: node
+    uuid: f580133d-5816-4d29-bc7e-ea90cc91f4e4
+selection_logic: and
+weight: -5
+relationships: {  }
