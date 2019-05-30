@@ -1,0 +1,15 @@
+uuid: bf7a46fc-1749-448e-86e6-0368a438c2bc
+langcode: en
+status: true
+dependencies: {  }
+name: gallery_video
+label: 'Gallery video'
+effects:
+  2bf5575b-42f7-4e3b-adf9-2572e3d791c4:
+    uuid: 2bf5575b-42f7-4e3b-adf9-2572e3d791c4
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 255
+      height: 255
+      anchor: center-center
