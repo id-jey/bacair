@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.press_releases.body
+    - field.field.node.press_releases.field_attached_docs
     - node.type.press_releases
   module:
     - text
@@ -29,3 +30,4 @@ content:
     region: content
 hidden:
   field_attached_docs: true
+  langcode: true

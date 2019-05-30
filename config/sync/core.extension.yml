@@ -27,7 +27,9 @@ module:
   help: 0
   history: 0
   image: 0
+  language: 0
   link: 0
+  locale: 0
   mailsystem: 0
   media: 0
   media_library: 0
@@ -61,6 +63,7 @@ module:
   webform_ui: 0
   menu_link_content: 1
   pathauto: 1
+  content_translation: 10
   views: 10
   paragraphs: 11
   empty_page: 1000

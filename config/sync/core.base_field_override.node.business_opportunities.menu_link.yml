@@ -1,0 +1,20 @@
+uuid: f95b9f50-2c59-4ed7-bcc7-09c58ba7f8db
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.business_opportunities
+id: node.business_opportunities.menu_link
+field_name: menu_link
+entity_type: node
+bundle: business_opportunities
+label: 'Menu link'
+description: 'Computed menu link for the node (only available during node saving).'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

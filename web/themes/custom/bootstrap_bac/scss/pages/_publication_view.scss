@@ -116,12 +116,10 @@
               border: none;
               border-radius: 5px;
               outline: none;
+              max-width: 30px;
+              padding-left: 10px;
               &:focus {
                 background: #fff;
-              }
-              &::selection {
-                background: $pink-title;
-                color: white;
               }
             }
           }
@@ -169,5 +167,9 @@
         }
       }
     }
+  }
+  *::selection {
+    background: $pink-title;
+    color: white;
   }
 }

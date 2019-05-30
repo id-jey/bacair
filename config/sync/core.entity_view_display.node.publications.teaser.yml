@@ -4,6 +4,9 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.publications.field_back_to_publications
+    - field.field.node.publications.field_body
+    - field.field.node.publications.field_promo_image
     - node.type.publications
   module:
     - user
@@ -21,3 +24,4 @@ hidden:
   field_back_to_publications: true
   field_body: true
   field_promo_image: true
+  langcode: true

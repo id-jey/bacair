@@ -1,0 +1,18 @@
+uuid: 99facc44-f610-4b5f-b4d5-082883cfe378
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.biography
+id: paragraph.biography.created
+field_name: created
+entity_type: paragraph
+bundle: biography
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

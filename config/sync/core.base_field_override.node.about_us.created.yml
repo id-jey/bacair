@@ -1,0 +1,18 @@
+uuid: c0fb5d99-c559-497d-bff8-08f1934397ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.about_us
+id: node.about_us.created
+field_name: created
+entity_type: node
+bundle: about_us
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

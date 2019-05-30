@@ -1,0 +1,18 @@
+uuid: 39b82a22-9d82-4b08-80eb-f98fb0dde9ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.video_gallery
+id: node.video_gallery.created
+field_name: created
+entity_type: node
+bundle: video_gallery
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

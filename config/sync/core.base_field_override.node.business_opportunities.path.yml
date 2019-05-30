@@ -1,0 +1,20 @@
+uuid: 2116e2ff-fadc-4a07-9965-6383616fe1c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.business_opportunities
+  module:
+    - path
+id: node.business_opportunities.path
+field_name: path
+entity_type: node
+bundle: business_opportunities
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path
