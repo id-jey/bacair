@@ -1,0 +1,31 @@
+uuid: 7c59187e-8227-481c-ac2e-5e63980bfcb9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:view_category_block:abe240bd-7abf-4533-aea7-3adef7ccf199'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap_bac
+id: contactus
+theme: bootstrap_bac
+region: wrapper_menu_content
+weight: -3
+provider: null
+plugin: 'block_content:abe240bd-7abf-4533-aea7-3adef7ccf199'
+settings:
+  id: 'block_content:abe240bd-7abf-4533-aea7-3adef7ccf199'
+  label: 'Contact Us'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /corporate/media-center
+    negate: false
+    context_mapping: {  }

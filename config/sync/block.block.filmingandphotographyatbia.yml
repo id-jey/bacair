@@ -1,0 +1,31 @@
+uuid: c13c9bf0-7d22-4f4a-ab72-bb4b3bf609a6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:view_category_block:ac5e4a7e-0dd5-4d54-9f7b-e5ef30420643'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap_bac
+id: filmingandphotographyatbia
+theme: bootstrap_bac
+region: wrapper_menu_content
+weight: -4
+provider: null
+plugin: 'block_content:ac5e4a7e-0dd5-4d54-9f7b-e5ef30420643'
+settings:
+  id: 'block_content:ac5e4a7e-0dd5-4d54-9f7b-e5ef30420643'
+  label: 'Filming and Photography at BIA'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /corporate/media-center
+    negate: false
+    context_mapping: {  }

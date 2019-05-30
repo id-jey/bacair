@@ -45,7 +45,7 @@ callback_7:
   page_title: 'Video gallery'
 callback_8:
   created: 1559137815
-  cid: 8
-  updated: 1559137815
+  cid: '8'
+  updated: 1559198541
   path: /corporate/media-center/gallery
-  page_title: Gallery
+  page_title: 'Photo & Video Gallery'

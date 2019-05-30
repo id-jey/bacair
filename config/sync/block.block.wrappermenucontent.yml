@@ -12,7 +12,7 @@ dependencies:
 id: wrappermenucontent
 theme: bootstrap_bac
 region: content
-weight: -12
+weight: -17
 provider: null
 plugin: 'block_group:da3c1c0f-179a-472e-9d1d-472e03f5731c'
 settings:
@@ -23,6 +23,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: "/corporate/airline-development\r\n/corporate/about-us\r\n/corporate/business-opportunities\r\n/contactus\r\n/corporate/media-center/gallery/photo\r\n/corporate/media-center\r\n/corporate/media-center/gallery/video"
+    pages: "/corporate/airline-development\r\n/corporate/airline-development/*\r\n/corporate/about-us\r\n/corporate/about-us/*\r\n/corporate/business-opportunities\r\n/corporate/business-opportunities/*\r\n/contactus\r\n/corporate/media-center\r\n/corporate/media-center/*"
     negate: false
     context_mapping: {  }

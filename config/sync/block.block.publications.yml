@@ -1,0 +1,31 @@
+uuid: 3b92cfd4-76a2-427f-845f-0ee6f6643d4b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:view_category_block:89c0b7c0-b7ab-4886-938b-4cd2833ef4db'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap_bac
+id: publications
+theme: bootstrap_bac
+region: wrapper_menu_content
+weight: -5
+provider: null
+plugin: 'block_content:89c0b7c0-b7ab-4886-938b-4cd2833ef4db'
+settings:
+  id: 'block_content:89c0b7c0-b7ab-4886-938b-4cd2833ef4db'
+  label: Publications
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /corporate/media-center
+    negate: false
+    context_mapping: {  }

@@ -11,6 +11,8 @@
 }
 .general-node {
   @include custom-container();
+  width: 620px;
+  margin-right: 22px;
   background: linear-gradient(to bottom, rgba(228, 228, 228, 0.8), #ffffff);
   padding: 20px 16px 55px;
   border-radius: 8px;
@@ -23,6 +25,8 @@
   }
 }
 .filming-photography-node {
+  width: 620px;
+  margin-right: 22px;
   .title-node {
     span {
       color: $pink-title;

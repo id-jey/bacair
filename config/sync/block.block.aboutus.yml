@@ -11,7 +11,7 @@ dependencies:
 id: aboutus
 theme: bootstrap_bac
 region: wrapper_menu_content
-weight: -9
+weight: -14
 provider: null
 plugin: 'system_menu_block:about-us'
 settings:
@@ -25,6 +25,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /corporate/about-us
+    pages: "/corporate/about-us\r\n/corporate/about-us/*\r\n"
     negate: false
     context_mapping: {  }

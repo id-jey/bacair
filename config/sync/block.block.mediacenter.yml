@@ -11,7 +11,7 @@ dependencies:
 id: mediacenter
 theme: bootstrap_bac
 region: wrapper_menu_content
-weight: 0
+weight: -2
 provider: null
 plugin: 'system_menu_block:media-center'
 settings:
@@ -25,6 +25,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /corporate/media-center
+    pages: "/corporate/media-center/*\r\n/corporate/media-center\r\n/contactus"
     negate: false
     context_mapping: {  }
