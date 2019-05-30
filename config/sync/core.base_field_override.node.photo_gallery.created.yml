@@ -1,0 +1,18 @@
+uuid: 16ca4b99-257d-4eca-8f45-7fd7d4f10ef7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.photo_gallery
+id: node.photo_gallery.created
+field_name: created
+entity_type: node
+bundle: photo_gallery
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

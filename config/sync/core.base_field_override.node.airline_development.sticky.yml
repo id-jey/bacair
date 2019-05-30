@@ -1,0 +1,22 @@
+uuid: 30a7c7c7-0332-43c0-b7da-851b87446576
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.airline_development
+id: node.airline_development.sticky
+field_name: sticky
+entity_type: node
+bundle: airline_development
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

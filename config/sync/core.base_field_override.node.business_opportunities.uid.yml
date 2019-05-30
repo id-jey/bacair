@@ -1,0 +1,20 @@
+uuid: 15e3c381-abd9-40f8-93d4-a00301443ed8
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.business_opportunities
+id: node.business_opportunities.uid
+field_name: uid
+entity_type: node
+bundle: business_opportunities
+label: 'Authored by'
+description: 'The username of the content author.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

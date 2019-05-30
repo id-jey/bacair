@@ -1,0 +1,17 @@
+default_config:
+  tags:
+    pages:
+      prefix_label: الصفحة
+      page_title: 'الذهاب إلى الصفحة @number'
+      first_title: 'الذهاب إلى الصفحة الأولى'
+      previous_title: 'الذهاب إلى الصفحة السابقة'
+      next_title: 'الذهاب إلى الصفحة التالية'
+      last_title: 'الذهاب إلى الصفحة الأخيرة'
+      page_reader: الصفحة
+    items:
+      prefix_label: عنصر
+      page_reader: عنصر
+      first_reader: 'أول عنصر'
+    item_ranges:
+      prefix_label: أخبار
+      page_reader: أخبار

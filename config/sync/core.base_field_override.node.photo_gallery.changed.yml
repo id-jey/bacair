@@ -1,0 +1,18 @@
+uuid: a6b1271f-a7e9-4d05-9177-7748c5f3151a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.photo_gallery
+id: node.photo_gallery.changed
+field_name: changed
+entity_type: node
+bundle: photo_gallery
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

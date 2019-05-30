@@ -1,0 +1,11 @@
+uuid: b1db5250-f335-4b90-883a-4ca9978b1c5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.template_job_application
+id: webform_submission.template_job_application
+target_entity_type_id: webform_submission
+target_bundle: template_job_application
+default_langcode: site_default
+language_alterable: false

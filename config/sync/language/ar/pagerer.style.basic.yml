@@ -1,0 +1,9 @@
+default_config:
+  tags:
+    pages:
+      first_title: 'الذهاب إلى الصفحة الأولى'
+      previous_title: 'الذهاب إلى الصفحة السابقة'
+      next_title: 'الذهاب إلى الصفحة التالية'
+      last_title: 'الذهاب إلى الصفحة الأخيرة'
+    items:
+      first_reader: 'أول عنصر'

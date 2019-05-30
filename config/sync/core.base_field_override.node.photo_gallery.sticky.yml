@@ -1,0 +1,22 @@
+uuid: f430713a-0ec6-4554-8504-2769e4d8f72b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.photo_gallery
+id: node.photo_gallery.sticky
+field_name: sticky
+entity_type: node
+bundle: photo_gallery
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

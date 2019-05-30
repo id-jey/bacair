@@ -1,0 +1,18 @@
+uuid: f7ea9816-8eb6-412d-9c7b-7b5bbd09885f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.business_opportunities
+id: node.business_opportunities.created
+field_name: created
+entity_type: node
+bundle: business_opportunities
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created
