@@ -1,4 +1,4 @@
-uuid: b15cbc01-a8c1-49ae-b8d3-3702726a4cf8
+uuid: aa57ca83-b740-4e58-a6dd-0081dfaa1997
 langcode: en
 status: true
 dependencies:
@@ -14,9 +14,9 @@ theme: bootstrap_bac
 region: wrapper_menu_content
 weight: -8
 provider: null
-plugin: 'block_group:6ec4866a-9b44-47b5-8f21-296ebe726cad'
+plugin: 'block_group:b4d02120-3916-4d85-9918-95548fcc77ef'
 settings:
-  id: 'block_group:6ec4866a-9b44-47b5-8f21-296ebe726cad'
+  id: 'block_group:b4d02120-3916-4d85-9918-95548fcc77ef'
   label: 'Category blocks wrapper (Media Center)'
   provider: blockgroup
   label_display: '0'
