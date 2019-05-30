@@ -1,0 +1,22 @@
+uuid: 9743b876-1faa-403b-95f4-698b2eff7c47
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: publications_node
+label: 'Publications node'
+type: 'canonical_entities:node'
+pattern: '/corporate/media-center/publications/[node:title]'
+selection_criteria:
+  528ba3d0-2bbb-48a1-89ab-8bebd8647cf6:
+    id: node_type
+    bundles:
+      publications: publications
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 528ba3d0-2bbb-48a1-89ab-8bebd8647cf6
+selection_logic: and
+weight: -5
+relationships: {  }
