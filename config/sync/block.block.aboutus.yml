@@ -5,13 +5,14 @@ dependencies:
   config:
     - system.menu.about-us
   module:
+    - language
     - system
   theme:
     - bootstrap_bac
 id: aboutus
 theme: bootstrap_bac
 region: wrapper_menu_content
-weight: -14
+weight: -15
 provider: null
 plugin: 'system_menu_block:about-us'
 settings:
@@ -28,3 +29,11 @@ visibility:
     pages: "/corporate/about-us\r\n/corporate/about-us/*\r\n"
     negate: false
     context_mapping: {  }
+  language:
+    id: language
+    langcodes:
+      en: en
+      ar: ar
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'
