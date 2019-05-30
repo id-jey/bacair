@@ -1,0 +1,18 @@
+uuid: 3e8f5693-8189-4cea-967f-332a5bd05b24
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.view_category_block
+id: block_content.view_category_block.info
+field_name: info
+entity_type: block_content
+bundle: view_category_block
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

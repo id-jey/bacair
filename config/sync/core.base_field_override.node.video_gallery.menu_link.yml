@@ -1,0 +1,20 @@
+uuid: 60ec70cc-f4d9-4435-89c1-16e09ea851f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.video_gallery
+id: node.video_gallery.menu_link
+field_name: menu_link
+entity_type: node
+bundle: video_gallery
+label: 'Menu link'
+description: 'Computed menu link for the node (only available during node saving).'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

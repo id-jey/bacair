@@ -1,0 +1,22 @@
+uuid: 1fb73c2f-7d22-4c50-b436-85a6dd53c1a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.press_releases
+id: node.press_releases.status
+field_name: status
+entity_type: node
+bundle: press_releases
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

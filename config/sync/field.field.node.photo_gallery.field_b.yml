@@ -14,7 +14,7 @@ bundle: photo_gallery
 label: 'Back to gallery'
 description: ''
 required: true
-translatable: false
+translatable: true
 default_value:
   -
     value: '<a href="/corporate/media-center/gallery/photo" class="back-to-gallery"></a>'
