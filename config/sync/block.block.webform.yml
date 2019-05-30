@@ -17,9 +17,9 @@ provider: null
 plugin: webform_block
 settings:
   id: webform_block
-  label: Webform
+  label: 'Contact Us'
   provider: webform
-  label_display: '0'
+  label_display: visible
   webform_id: contact
   default_data: ''
   redirect: false
