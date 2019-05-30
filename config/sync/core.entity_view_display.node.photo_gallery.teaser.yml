@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.photo_gallery.field_b
+    - field.field.node.photo_gallery.field_gallery_photo
     - node.type.photo_gallery
   module:
     - user
@@ -18,4 +20,6 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_b: true
   field_gallery_photo: true
+  langcode: true

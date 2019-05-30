@@ -1,0 +1,22 @@
+uuid: f3f1a120-47ca-41df-b8d6-ec82cf2580c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.business_opportunities
+id: node.business_opportunities.sticky
+field_name: sticky
+entity_type: node
+bundle: business_opportunities
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

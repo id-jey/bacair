@@ -1,0 +1,22 @@
+uuid: 44976d20-1cb4-4bf9-9452-e5d6887ca72d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.business_opportunities
+id: node.business_opportunities.status
+field_name: status
+entity_type: node
+bundle: business_opportunities
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

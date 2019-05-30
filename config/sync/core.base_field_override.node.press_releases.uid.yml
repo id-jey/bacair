@@ -1,0 +1,20 @@
+uuid: 37f41a05-fa43-42ec-b7ab-8970d3619767
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.press_releases
+id: node.press_releases.uid
+field_name: uid
+entity_type: node
+bundle: press_releases
+label: 'Authored by'
+description: 'The username of the content author.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

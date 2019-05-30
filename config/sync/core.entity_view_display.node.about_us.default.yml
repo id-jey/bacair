@@ -41,4 +41,5 @@ content:
     type: string
     region: content
 hidden:
+  langcode: true
   links: true

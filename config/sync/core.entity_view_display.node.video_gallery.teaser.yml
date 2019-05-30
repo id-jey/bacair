@@ -4,6 +4,9 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.video_gallery.field_back_to_gallery
+    - field.field.node.video_gallery.field_gallery_video
+    - field.field.node.video_gallery.field_video_image
     - node.type.video_gallery
   module:
     - user
@@ -21,3 +24,4 @@ hidden:
   field_back_to_gallery: true
   field_gallery_video: true
   field_video_image: true
+  langcode: true
