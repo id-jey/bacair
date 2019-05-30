@@ -11,7 +11,7 @@ _core:
 id: bootstrap_bac_content
 theme: bootstrap_bac
 region: content
-weight: -11
+weight: -13
 provider: null
 plugin: system_main_block
 settings:
@@ -22,6 +22,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: "/corporate/airline-development\r\n/corporate/about-us"
+    pages: "/corporate/airline-development\r\n/corporate/airline-development/*\r\n/corporate/about-us/*\r\n/corporate/business-opportunities/*\r\n/corporate/media-center/*"
     negate: true
     context_mapping: {  }
