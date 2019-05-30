@@ -1,3 +1,4 @@
 title: اتصل
 settings:
   confirmation_message: 'أُرسلت رسالتك.'
+elements: "select_department:\n  '#title': 'اختر القسم'\n  '#options':\n    giwohaya@mailsource.info: 'تسويق الخطوط الجوية'\n    y.mykhaliak@internetdevels.com: 'إدارة عمليات المطار'\n    111@idea-mail.com: 'تنازلات وتأجير'\n    examlple4@gmail.com: 'قسم الاتصالات المؤسسية'\n    examlple5@gmail.com: 'للاستفسارات العامة'\n    examlple6@gmail.com: 'قسم المشتريات'\n  '#empty_option': 'تنازلات وتأجير'\nprocessed_text:\n  '#text': \"<div class=\\\"block-selected-department\\\">تنازلات وتأجير</div>\\n\"\nsend_an_email_all_fields_with_an_are_required_:\n  '#title': 'أرسل بريدا إلكترونيا. جميع الحقول مع * مطلوبة.'\nname:\n  '#title': اسم\nemail:\n  '#title': 'البريد الإلكتروني'\nsubject:\n  '#title': موضوع\nmessage:\n  '#title': رسالة\nactions:\n  '#submit__label': 'ارسل بريد الكتروني'\n"
