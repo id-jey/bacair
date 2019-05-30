@@ -12,7 +12,7 @@ dependencies:
 id: views_block__airline_development__block_1
 theme: bootstrap_bac
 region: wrapper_menu_content
-weight: -8
+weight: -13
 provider: null
 plugin: 'views_block:airline_development_-block_1'
 settings:

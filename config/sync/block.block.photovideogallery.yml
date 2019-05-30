@@ -1,0 +1,31 @@
+uuid: 600b8476-3488-45e8-8a9c-7030f337f98b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:view_category_block:e289fd4d-7c3a-4b9b-9d76-ab934ca6fd40'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap_bac
+id: photovideogallery
+theme: bootstrap_bac
+region: wrapper_menu_content
+weight: -6
+provider: null
+plugin: 'block_content:e289fd4d-7c3a-4b9b-9d76-ab934ca6fd40'
+settings:
+  id: 'block_content:e289fd4d-7c3a-4b9b-9d76-ab934ca6fd40'
+  label: 'Photo & Video Gallery'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /corporate/media-center
+    negate: false
+    context_mapping: {  }

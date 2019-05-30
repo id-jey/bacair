@@ -1,0 +1,31 @@
+uuid: eb6c0150-2754-4955-9489-d3496cc32bdc
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:view_category_block:4f9a7002-9d43-449f-b960-361f4c94b246'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap_bac
+id: pressreleases
+theme: bootstrap_bac
+region: wrapper_menu_content
+weight: -7
+provider: null
+plugin: 'block_content:4f9a7002-9d43-449f-b960-361f4c94b246'
+settings:
+  id: 'block_content:4f9a7002-9d43-449f-b960-361f4c94b246'
+  label: 'Press Releases'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /corporate/media-center
+    negate: false
+    context_mapping: {  }

@@ -11,7 +11,7 @@ _core:
 id: bootstrap_bac_content
 theme: bootstrap_bac
 region: content
-weight: -11
+weight: -16
 provider: null
 plugin: system_main_block
 settings:
