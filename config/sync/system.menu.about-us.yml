@@ -1,8 +1,8 @@
 uuid: 2f16513f-fcf9-42d6-bdb0-056ca0cff3e5
-langcode: en
+langcode: ar
 status: true
 dependencies: {  }
 id: about-us
-label: 'About us'
+label: 'About Us'
 description: ''
 locked: false
