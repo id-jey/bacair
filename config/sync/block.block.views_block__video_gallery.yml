@@ -1,0 +1,30 @@
+uuid: a384fb79-8f11-481a-9df8-5800abba86d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.video_gallery
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap_bac
+id: views_block__video_gallery
+theme: bootstrap_bac
+region: wrapper_menu_content
+weight: 0
+provider: null
+plugin: 'views_block:video_gallery-video_gallery'
+settings:
+  id: 'views_block:video_gallery-video_gallery'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /corporate/media-center/gallery/video
+    negate: false
+    context_mapping: {  }
