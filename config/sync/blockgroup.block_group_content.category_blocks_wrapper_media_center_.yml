@@ -1,0 +1,6 @@
+uuid: b4d02120-3916-4d85-9918-95548fcc77ef
+langcode: en
+status: true
+dependencies: {  }
+id: category_blocks_wrapper_media_center_
+label: 'Category blocks wrapper (Media Center)'

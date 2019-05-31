@@ -11,7 +11,7 @@ dependencies:
 id: mediacenter
 theme: bootstrap_bac
 region: wrapper_menu_content
-weight: -2
+weight: -7
 provider: null
 plugin: 'system_menu_block:media-center'
 settings:

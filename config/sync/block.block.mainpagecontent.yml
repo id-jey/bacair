@@ -9,7 +9,7 @@ dependencies:
 id: mainpagecontent
 theme: bootstrap_bac
 region: wrapper_menu_content
-weight: -1
+weight: -6
 provider: null
 plugin: system_main_block
 settings:

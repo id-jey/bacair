@@ -11,8 +11,8 @@ dependencies:
     - bootstrap_bac
 id: filmingandphotographyatbia
 theme: bootstrap_bac
-region: wrapper_menu_content
-weight: -4
+region: category_blocks_wrapper_media_center_
+weight: -14
 provider: null
 plugin: 'block_content:ac5e4a7e-0dd5-4d54-9f7b-e5ef30420643'
 settings:

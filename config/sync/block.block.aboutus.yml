@@ -12,7 +12,7 @@ dependencies:
 id: aboutus
 theme: bootstrap_bac
 region: wrapper_menu_content
-weight: -14
+weight: -15
 provider: null
 plugin: 'system_menu_block:about-us'
 settings:
