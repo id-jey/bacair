@@ -14,7 +14,7 @@
   width: 620px;
   margin-right: 22px;
   background: linear-gradient(to bottom, rgba(228, 228, 228, 0.8), #ffffff);
-  padding: 20px 16px 55px;
+  padding: 20px 16px 30px;
   border-radius: 8px;
   .title-node {
     text-transform: uppercase;
@@ -23,10 +23,18 @@
     font-size: $node-title-font-size;
     font-weight: 600;
   }
+  .field--type-text-with-summary {
+    padding-bottom: 16px;
+  }
 }
 .filming-photography-node {
   width: 620px;
   margin-right: 22px;
+  .par::selection,
+  .title-node::selection {
+    background: $pink-title;
+    color: rgb(255, 255, 255);
+  }
   .title-node {
     span {
       color: $pink-title;

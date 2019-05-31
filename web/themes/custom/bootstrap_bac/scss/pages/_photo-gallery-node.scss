@@ -28,7 +28,6 @@
     .field--item {
       margin-bottom: 25px;
       width: 30%;
-      margin-right: 5%;
       text-align: center;
       &:first-child {
         margin-left: 35%;
@@ -38,6 +37,10 @@
       }
       &:nth-child(3n+2) {
         margin-right: 0;
+        margin-left: 5%;
+      }
+      &:nth-child(3n+3) {
+        margin-right: 5%;
       }
       img {
         border: 5px solid #fff;
