@@ -1,0 +1,51 @@
+#block-categoryblockswrappermediacenter {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  margin-right: 22px;
+  #block-pressreleases,
+  #block-photovideogallery,
+  #block-publications,
+  #block-filmingandphotographyatbia,
+  #block-contactus {
+    width: 300px;
+    position: relative;
+    background: $category-view-bg;
+    padding: 10px 15px 15px;
+    margin-bottom: 18px;
+    border-radius: 5px;
+    box-shadow: #b7b7b7 0 1px 2px;
+    min-height: 145px;
+    .block-title {
+      font-size: $menu-title-font-size;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: $pink-title;
+      margin: 4px 0;
+    }
+    .field--type-text-with-summary {
+      font-size: 1.3rem;
+      line-height: 1.3rem;
+      margin-bottom: 50px;
+    }
+    .field--name-field-link {
+      font-size: 1.3rem;
+      line-height: 1.3rem;
+      position: absolute;
+      bottom: 15px;
+      a {
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 4px 5px;
+        border-radius: 3px;
+        background: $pink-title;
+      }
+    }
+  }
+  #block-pressreleases,
+  #block-publications {
+    margin-right: 18px;
+  }
+}
