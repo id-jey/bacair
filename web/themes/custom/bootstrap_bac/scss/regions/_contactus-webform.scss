@@ -17,7 +17,7 @@
       background-repeat: repeat-x;
       background-position: center;
       border-radius: 4px;
-      background-size: 175px 100%;
+      background-size: 148px 100%;
       label {
         font-size: $subtitle-font-size;
         color: rgb(255, 255, 255);
@@ -40,7 +40,7 @@
     #edit-processed-text {
       .block-selected-department {
         font-size: $subtitle-font-size;
-        color: $blue-title;
+        color: $pink-title;
         text-transform: uppercase;
       }
     }
@@ -94,14 +94,15 @@
       justify-content: center;
       line-height: 9px;
       border-radius: 2px;
-      background: linear-gradient(to top, #255f93, #2a6aa4);
+      background: linear-gradient(to top, #cc0066, #ff1a8c);
+      border: none;
     }
   }
   .block-title {
     font-size: $menu-title-font-size;
     text-transform: uppercase;
     font-weight: bold;
-    color: $blue-title;
+    color: $pink-title;
     margin-top: 0;
   }
 }

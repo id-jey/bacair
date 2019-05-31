@@ -23,6 +23,7 @@
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6.5",
         "drupal-composer/drupal-scaffold": "^2.5",
+        "drupal/addtoany": "^1.12",
         "drupal/admin_toolbar": "^1.27",
         "drupal/blockgroup": "^1.1",
         "drupal/bootstrap": "^3.19",
@@ -94,7 +95,8 @@
         },
         "patches": {
             "drupal/core": {
-                "Responsive remote videos via the Media module": "https://www.drupal.org/files/issues/2018-09-14/oembed_media_without_iframe-2998091-5.patch"
+                "Responsive remote videos via the Media module": "https://www.drupal.org/files/issues/2018-09-14/oembed_media_without_iframe-2998091-5.patch",
+                "Entity Links fields translation support": "https://www.drupal.org/files/issues/2019-05-29/2877994-140.patch"
             }
         },
         "drupal-scaffold": {
