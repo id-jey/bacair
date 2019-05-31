@@ -1,0 +1,16 @@
+label: المنشورات
+display:
+  default:
+    display_options:
+      header:
+        area:
+          content:
+            value: "<div class=\"pub-page-sub-title\">المنشورات</div>\r\n\r\n<p class=\"pub-page-sub-slogan\">يمكنك العثور على آخر التحديثات حول شركة مطار البحرين ومطار البحرين الدولي في هذا القسم.</p>\r\n"
+            format: full_html
+      title: المنشورات
+      fields:
+        view_node:
+          text: 'قراءة المزيد...  〉'
+  block_1:
+    display_options:
+      block_description: المنشورات

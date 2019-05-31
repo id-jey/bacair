@@ -1,0 +1,78 @@
+.region-content {
+  #block-wrappermenucontent {
+    #block-views-block-business-opportunities-block-1,
+    #block-views-block-airline-development-block-1,
+    #block-views-block-about-us-block-block-1,
+    #block-categoryblockswrappermediacenter {
+      margin-right: 0;
+      .view-content {
+        .views-row {
+          &:nth-child(1n) {
+            margin-right: 0;
+          }
+          &:nth-child(2n) {
+            margin-right: 18px;
+          }
+        }
+      }
+    }
+
+    #block-views-block-photo-gallery-photo-gallery,
+    #block-views-block-video-gallery,
+    #block-categoryblockswrappermediacenter,
+    #block-webform,
+    .view-id-publications,
+    .general-node {
+      margin-right: 0;
+    }
+
+    #block-views-block-photo-gallery-photo-gallery,
+    #block-views-block-video-gallery {
+      .view-content {
+        .views-row {
+          &:nth-child(1n) {
+            margin-right: 0;
+            margin-left: 5%;
+          }
+          &:nth-child(2n) {
+            margin-right: 0;
+            margin-left: 5%;
+          }
+          &:nth-child(3n) {
+            margin-right: 0;
+            margin-left: 0;
+          }
+        }
+      }
+    }
+
+    .photo-gallery {
+      .field--name-field-gallery-photo {
+        .field--item {
+          margin-right: 0;
+          margin-left: 5%;
+          &:first-child {
+            margin-right: 35%;
+            margin-left: 5%;
+          }
+          &:nth-child(3n+2) {
+            margin-left: 0;
+          }
+          &:nth-child(2) {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+
+    #block-businessopportunities,
+    #block-airlinedevelopment,
+    #block-aboutus,
+    #block-mediacenter  {
+      padding-right: 10px;
+      margin-right: 22px;
+    }
+
+  }
+
+}
