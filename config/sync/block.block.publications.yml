@@ -11,8 +11,8 @@ dependencies:
     - bootstrap_bac
 id: publications
 theme: bootstrap_bac
-region: wrapper_menu_content
-weight: -5
+region: category_blocks_wrapper_media_center_
+weight: -15
 provider: null
 plugin: 'block_content:89c0b7c0-b7ab-4886-938b-4cd2833ef4db'
 settings:

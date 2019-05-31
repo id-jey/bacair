@@ -1,16 +1,15 @@
 <?php
 
-  use \Drupal\webform\Entity\Webform;
-  /**
-   * @file
-   * Bootstrap sub-theme.
-   *
-   * Place your custom PHP code in this file.
-   */
-  /**
-   * @param $data
-   * @param $block
-   */
+/**
+ * @file
+ * Bootstrap sub-theme.
+ *
+ * Place your custom PHP code in this file.
+ */
 
-
-
+function bootstrap_bac_preprocess_html (&$variables) {
+  // Load specific library for pages with html attribute of RTL
+  if ($variables['html_attributes']['dir'] == 'rtl') {
+    $variables['#attached']['library'][] = 'bootstrap_bac/rtl';
+  }
+}

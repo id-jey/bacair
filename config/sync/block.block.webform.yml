@@ -12,14 +12,14 @@ dependencies:
 id: webform
 theme: bootstrap_bac
 region: wrapper_menu_content
-weight: -16
+weight: -17
 provider: null
 plugin: webform_block
 settings:
   id: webform_block
-  label: Webform
+  label: 'Contact Us'
   provider: webform
-  label_display: '0'
+  label_display: visible
   webform_id: contact
   default_data: ''
   redirect: false

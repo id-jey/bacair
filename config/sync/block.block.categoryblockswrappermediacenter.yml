@@ -1,0 +1,28 @@
+uuid: aa57ca83-b740-4e58-a6dd-0081dfaa1997
+langcode: en
+status: true
+dependencies:
+  config:
+    - blockgroup.block_group_content.category_blocks_wrapper_media_center_
+  module:
+    - blockgroup
+    - system
+  theme:
+    - bootstrap_bac
+id: categoryblockswrappermediacenter
+theme: bootstrap_bac
+region: wrapper_menu_content
+weight: -8
+provider: null
+plugin: 'block_group:b4d02120-3916-4d85-9918-95548fcc77ef'
+settings:
+  id: 'block_group:b4d02120-3916-4d85-9918-95548fcc77ef'
+  label: 'Category blocks wrapper (Media Center)'
+  provider: blockgroup
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /corporate/media-center
+    negate: false
+    context_mapping: {  }

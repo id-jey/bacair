@@ -179,7 +179,7 @@ display:
           exclude: false
           alter:
             alter_text: false
-            text: ''
+            text: ' '
             make_link: false
             path: ''
             absolute: false

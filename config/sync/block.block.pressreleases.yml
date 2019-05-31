@@ -11,8 +11,8 @@ dependencies:
     - bootstrap_bac
 id: pressreleases
 theme: bootstrap_bac
-region: wrapper_menu_content
-weight: -7
+region: category_blocks_wrapper_media_center_
+weight: -17
 provider: null
 plugin: 'block_content:4f9a7002-9d43-449f-b960-361f4c94b246'
 settings:
