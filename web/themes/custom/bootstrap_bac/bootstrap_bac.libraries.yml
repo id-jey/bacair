@@ -7,6 +7,13 @@ framework:
     javascript/main.js: {}
   dependencies:
     - core/jquery
+
+rtl:
+  version: 8.x-1.0
+  css:
+    theme:
+      css/style-rtl.css: {}
+
 # Uncomment for LESS source JavaScript files.
 #  js:
 #    bootstrap/js/affix.js: {}

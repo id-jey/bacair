@@ -77,10 +77,10 @@
 ]
 %}
   <article{{ attributes.addClass(classes) }}>
-    <div class="pub-page-sub-title">Publications</div>
-    <p class="pub-page-sub-slogan">You can find the latest updates about
-      Bahrain Airport Company and Bahrain International Airport within this
-      section.</p>
+    <div class="pub-page-sub-title">{{ 'Publications'|t }}</div>
+    <p class="pub-page-sub-slogan">{{ 'You can find the latest updates about
+        Bahrain Airport Company and Bahrain International Airport within this
+        section.'|t}}</p>
     <p class="pub-page-date">{{ node.createdtime|date("F j, Y") }}</p>
     {% if label %}
       <h1 class="title-node">{{ label }}</h1>
@@ -96,7 +96,7 @@
 
     <div{{ content_attributes.addClass('content') }}>
       {{ content }}
-      <a class="printlink" href="#" onclick="window.print();" alt="print">Print
+      <a class="printlink" href="#" onclick="window.print();" alt="print">{{ 'Print'|t }}
         <i class="glyphicon glyphicon-print"></i>
       </a>
     </div>
