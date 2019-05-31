@@ -30,6 +30,11 @@
 .filming-photography-node {
   width: 620px;
   margin-right: 22px;
+  .par::selection,
+  .title-node::selection {
+    background: $pink-title;
+    color: rgb(255, 255, 255);
+  }
   .title-node {
     span {
       color: $pink-title;
