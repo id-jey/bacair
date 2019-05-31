@@ -26,6 +26,18 @@
       margin-right: 0;
     }
 
+    #block-categoryblockswrappermediacenter {
+      #block-pressreleases,
+      #block-publications {
+        margin-right: 0;
+      }
+      #block-pressreleases,
+      #block-publications,
+      #block-contactus {
+        margin-left: 20px;
+      }
+    }
+
     #block-views-block-photo-gallery-photo-gallery,
     #block-views-block-video-gallery {
       .view-content {

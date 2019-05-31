@@ -3,9 +3,9 @@ schemas:
   bootstrap_bac: 8000
 favicon:
   mimetype: image/vnd.microsoft.icon
-  path: ''
+  path: 'public://favicon.ico'
   url: 'http://bacair.loc/themes/custom/bootstrap_bac/favicon.ico'
-  use_default: 1
+  use_default: 0
 features:
   comment_user_picture: 1
   comment_user_verification: 1
@@ -24,3 +24,15 @@ cdn_cache_ttl_assets: '0'
 cdn_cache_ttl_library: '0'
 reset_http_request_cache: ''
 table: ''
+region_wells:
+  navigation: ''
+  navigation_collapsible: ''
+  header: ''
+  highlighted: ''
+  help: ''
+  content: ''
+  sidebar_first: ''
+  sidebar_second: well
+  footer: ''
+  category_blocks_wrapper_media_center_: ''
+  wrapper_menu_content: ''
