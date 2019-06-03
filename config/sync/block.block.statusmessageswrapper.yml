@@ -23,6 +23,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: "/access-denied\r\n/not-found"
+    pages: "/access-denied\r\n/not-found\r\n"
     negate: false
     context_mapping: {  }
