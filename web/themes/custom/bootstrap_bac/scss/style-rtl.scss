@@ -87,4 +87,49 @@
 
   }
 
+
+  .pagerer-panes {
+    .pagerer-center-pane {
+      .pager__items {
+        padding-left: 0;
+        height: 28px;
+        border-radius: 0 5px 5px 0;
+        .pager__item {
+          &:first-child {
+            margin-left: 15px;
+          }
+          &:last-child {
+
+            transform: rotate(180deg);
+            span {
+              margin-left: 10px;
+              margin-right: 0;
+            }
+          }
+          .pagerer-page-widget {
+            .pagerer-page {
+              padding-left: 0;
+              padding-right: 10px;
+            }
+          }
+        }
+      }
+    }
+    .pagerer-right-pane {
+      .pager__items {
+        border-radius: 5px 0 0 5px;
+        padding-right: 10px;
+        .pager__item {
+          &:first-child {
+            margin-right: 0;
+
+          }
+          &:last-child {
+            margin-left: 10px;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
 }
