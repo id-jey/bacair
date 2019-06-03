@@ -1,0 +1,67 @@
+uuid: 8f433b19-10d4-4174-9449-08300a08b6f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.status_pages.body
+    - field.field.node.status_pages.field_link_
+    - node.type.status_pages
+  module:
+    - field_group
+    - link
+    - text
+    - user
+third_party_settings:
+  field_group:
+    group_wrapper_status_page:
+      children:
+        - body
+        - field_link_
+        - links
+      parent_name: ''
+      weight: 0
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: wrapper-page-status-node
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'Wrapper status page'
+      region: content
+id: node.status_pages.default
+targetEntityType: node
+bundle: status_pages
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_link_:
+    weight: 2
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  links:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  addtoany: true
+  langcode: true

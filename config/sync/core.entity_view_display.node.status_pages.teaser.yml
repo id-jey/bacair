@@ -1,0 +1,32 @@
+uuid: 17a33295-d577-426c-a3a1-bcfa416bac3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.status_pages.body
+    - node.type.status_pages
+  module:
+    - text
+    - user
+id: node.status_pages.teaser
+targetEntityType: node
+bundle: status_pages
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  langcode: true

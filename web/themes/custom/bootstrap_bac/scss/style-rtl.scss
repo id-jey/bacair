@@ -5,11 +5,13 @@
     #block-views-block-about-us-block-block-1,
     #block-categoryblockswrappermediacenter {
       margin-right: 0;
+
       .view-content {
         .views-row {
           &:nth-child(1n) {
             margin-right: 0;
           }
+
           &:nth-child(2n) {
             margin-right: 18px;
           }
@@ -31,6 +33,7 @@
       #block-publications {
         margin-right: 0;
       }
+
       #block-pressreleases,
       #block-publications,
       #block-contactus {
@@ -46,10 +49,12 @@
             margin-right: 0;
             margin-left: 5%;
           }
+
           &:nth-child(2n) {
             margin-right: 0;
             margin-left: 5%;
           }
+
           &:nth-child(3n) {
             margin-right: 0;
             margin-left: 0;
@@ -63,13 +68,16 @@
         .field--item {
           margin-right: 0;
           margin-left: 5%;
+
           &:first-child {
             margin-right: 35%;
             margin-left: 5%;
           }
+
           &:nth-child(3n+2) {
             margin-left: 0;
           }
+
           &:nth-child(2) {
             margin-right: 0;
           }
@@ -80,7 +88,7 @@
     #block-businessopportunities,
     #block-airlinedevelopment,
     #block-aboutus,
-    #block-mediacenter  {
+    #block-mediacenter {
       padding-right: 10px;
       margin-right: 22px;
     }
@@ -94,18 +102,22 @@
         padding-left: 0;
         height: 28px;
         border-radius: 0 5px 5px 0;
+
         .pager__item {
           &:first-child {
             margin-left: 15px;
           }
+
           &:last-child {
 
             transform: rotate(180deg);
+
             span {
               margin-left: 10px;
               margin-right: 0;
             }
           }
+
           .pagerer-page-widget {
             .pagerer-page {
               padding-left: 0;
@@ -115,15 +127,18 @@
         }
       }
     }
+
     .pagerer-right-pane {
       .pager__items {
         border-radius: 5px 0 0 5px;
         padding-right: 10px;
+
         .pager__item {
           &:first-child {
             margin-right: 0;
 
           }
+
           &:last-child {
             margin-left: 10px;
             margin-right: 10px;
@@ -142,23 +157,9 @@
   .content {
     .field--name-field-back-to-publications {
       margin-top: 1px;
+
       a {
         padding: 4px 5px 4px;
-      }
-    }
-  }
-
-
-  .addtoany_list {
-    .addtoany_share {
-      background: url("../images/share-rtl.png") no-repeat;
-      width: 70px;
-      height: 20px;
-      margin-bottom: 0;
-      margin-right: 9px;
-      margin-left: 5px;
-      img {
-        display: none;
       }
     }
   }

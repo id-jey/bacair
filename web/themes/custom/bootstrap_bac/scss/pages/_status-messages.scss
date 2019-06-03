@@ -1,22 +1,20 @@
-#block-fullwidthwrapper {
-  background-color: $background-status;
-  margin-top: -25px;
-  margin-bottom: -50px;
-}
-#block-statusmessageswrapper {
+.status-pages {
   padding-top: 105px;
   background-image: url("../images/error-page.png");
   background-repeat: no-repeat;
-  background-position: right;
-  @include custom-container();
-  height: 350px;
-  #block-403,
-  #block-404 {
-    .block-title {
-      font-size: 4.2rem;
-      line-height: 4.2rem;
-      margin: 0;
-    }
+  background-position: 942px 91px;
+  width: 100%;
+  max-width: none;
+  background-color: $background-status;
+  margin: -25px 0 -50px;
+  border-radius: unset;
+  .title-node {
+    @include custom-container();
+    font-size: 4.2rem;
+    line-height: 4.2rem;
+  }
+  .wrapper-page-status-node {
+    @include custom-container();
     .field--type-text-with-summary {
       .status {
         font-size: 3rem;
@@ -31,12 +29,12 @@
         text-decoration: none;
       }
     }
-    .block-title,
-    .field--type-text-with-summary .status,
-    .field--type-link a {
-      text-transform: uppercase;
-      color: rgb(255, 255, 255);
-      font-weight: bold;
-    }
+  }
+  .title-node,
+  .wrapper-page-status-node,
+  .wrapper-page-status-node a {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
   }
 }

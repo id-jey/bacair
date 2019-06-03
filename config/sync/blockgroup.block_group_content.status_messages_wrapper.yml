@@ -1,6 +1,0 @@
-uuid: 31e45797-a798-4c9e-ac8f-786d4297ca1d
-langcode: en
-status: true
-dependencies: {  }
-id: status_messages_wrapper
-label: 'Status messages wrapper'

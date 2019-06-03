@@ -3,8 +3,8 @@ name: Bacair
 mail: balabash00@gmail.com
 slogan: ''
 page:
-  403: /access-denied
-  404: /not-found
+  403: /node/37
+  404: /node/36
   front: /node
 admin_compact_mode: false
 weight_select_max: 100

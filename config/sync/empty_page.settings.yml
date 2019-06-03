@@ -49,15 +49,3 @@ callback_8:
   updated: 1559198541
   path: /corporate/media-center/gallery
   page_title: 'Photo & Video Gallery'
-callback_9:
-  created: 1559546038
-  cid: '9'
-  updated: 1559546258
-  path: /not-found
-  page_title: ''
-callback_10:
-  created: 1559546123
-  cid: '10'
-  updated: 1559546277
-  path: /access-denied
-  page_title: ''
