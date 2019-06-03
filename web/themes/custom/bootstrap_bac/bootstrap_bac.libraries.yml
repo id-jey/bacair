@@ -6,7 +6,9 @@ framework:
   js:
     javascript/main.js: {}
   dependencies:
+    - core/drupalSettings
     - core/jquery
+    - core/jquery.once
 
 rtl:
   version: 8.x-1.0

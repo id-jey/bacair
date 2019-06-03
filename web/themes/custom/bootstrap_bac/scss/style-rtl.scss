@@ -132,4 +132,34 @@
       }
     }
   }
+
+  .paragraph--type--biography {
+    .name-position-wrapper {
+      color: gray;
+    }
+  }
+
+  .content {
+    .field--name-field-back-to-publications {
+      margin-top: 1px;
+      a {
+        padding: 4px 5px 4px;
+      }
+    }
+  }
+
+
+  .addtoany_list {
+    .addtoany_share {
+      background: url("../images/share-rtl.png") no-repeat;
+      width: 70px;
+      height: 20px;
+      margin-bottom: 0;
+      margin-right: 9px;
+      margin-left: 5px;
+      img {
+        display: none;
+      }
+    }
+  }
 }
