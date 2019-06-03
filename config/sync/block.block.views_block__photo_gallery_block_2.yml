@@ -12,7 +12,7 @@ dependencies:
 id: views_block__photo_gallery_block_2
 theme: bootstrap_bac
 region: wrapper_menu_content
-weight: -5
+weight: -6
 provider: null
 plugin: 'views_block:photo_gallery-block_2'
 settings:

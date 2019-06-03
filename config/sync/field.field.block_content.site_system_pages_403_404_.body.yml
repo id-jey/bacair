@@ -1,0 +1,22 @@
+uuid: 7ad21ced-dbdb-4804-9f98-818869ada42d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.site_system_pages_403_404_
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.site_system_pages_403_404_.body
+field_name: body
+entity_type: block_content
+bundle: site_system_pages_403_404_
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

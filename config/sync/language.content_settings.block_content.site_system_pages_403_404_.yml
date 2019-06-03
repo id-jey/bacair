@@ -1,0 +1,11 @@
+uuid: d636f6c7-69a8-4c90-8816-26de08da3266
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.site_system_pages_403_404_
+id: block_content.site_system_pages_403_404_
+target_entity_type_id: block_content
+target_bundle: site_system_pages_403_404_
+default_langcode: site_default
+language_alterable: false

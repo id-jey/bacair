@@ -1,0 +1,28 @@
+uuid: 200783ad-7c79-4b06-8246-ced16f8e1dd5
+langcode: en
+status: true
+dependencies:
+  config:
+    - blockgroup.block_group_content.full_width_wrapper
+  module:
+    - blockgroup
+    - system
+  theme:
+    - bootstrap_bac
+id: fullwidthwrapper
+theme: bootstrap_bac
+region: content
+weight: 0
+provider: null
+plugin: 'block_group:c95f5162-f35f-4ecc-bcdd-38795c97c3f5'
+settings:
+  id: 'block_group:c95f5162-f35f-4ecc-bcdd-38795c97c3f5'
+  label: 'Full width wrapper'
+  provider: blockgroup
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "/access-denied\r\n/not-found"
+    negate: false
+    context_mapping: {  }

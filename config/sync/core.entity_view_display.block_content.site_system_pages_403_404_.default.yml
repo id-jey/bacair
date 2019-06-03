@@ -1,0 +1,37 @@
+uuid: a00b9012-1fe6-4d66-93eb-d28d862a7f8f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.site_system_pages_403_404_
+    - field.field.block_content.site_system_pages_403_404_.body
+    - field.field.block_content.site_system_pages_403_404_.field_link_
+  module:
+    - link
+    - text
+id: block_content.site_system_pages_403_404_.default
+targetEntityType: block_content
+bundle: site_system_pages_403_404_
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_link_:
+    weight: 1
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden:
+  langcode: true

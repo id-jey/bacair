@@ -19,10 +19,10 @@
 #}
 {{ attach_library('pagerer/mini') }}
 {% spaceless %}
-<div class="pagerer-page-widget">
-  <input type="input" class="pagerer-page" id="{{ id }}" title="{{ title }}" value="{{ value }}" min="{{ min }}" max="{{ max }}" step="{{ step }}">
-  {% if button %}
-    <input type="button" class="pagerer-page-button" value="&#10003;">
-  {% endif %}
-</div>
+    <div class="pagerer-page-widget">
+        <input class="pagerer-page" id="{{ id }}" title="{{ title }}" value="{{ value }}" min="{{ min }}" max="{{ max }}" step="{{ step }}">
+        {% if button %}
+            <input type="number" class="pagerer-page-button" value="&#10003;">
+        {% endif %}
+    </div>
 {% endspaceless %}

@@ -1,0 +1,8 @@
+uuid: 5e4c9f7e-3047-4a76-bbc6-35afebb23932
+langcode: en
+status: true
+dependencies: {  }
+id: site_system_pages_403_404_
+label: 'Site system pages (403/404)'
+revision: 0
+description: 'Title, status, link to homepage'

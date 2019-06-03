@@ -1,0 +1,42 @@
+#block-fullwidthwrapper {
+  background-color: $background-status;
+  margin-top: -25px;
+  margin-bottom: -50px;
+}
+#block-statusmessageswrapper {
+  padding-top: 105px;
+  background-image: url("../images/error-page.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  @include custom-container();
+  height: 350px;
+  #block-403,
+  #block-404 {
+    .block-title {
+      font-size: 4.2rem;
+      line-height: 4.2rem;
+      margin: 0;
+    }
+    .field--type-text-with-summary {
+      .status {
+        font-size: 3rem;
+        line-height: 3rem;
+        width: 60%;
+      }
+    }
+    .field--type-link {
+      margin-top: 100px;
+      a {
+        font-size: 1.8rem;
+        text-decoration: none;
+      }
+    }
+    .block-title,
+    .field--type-text-with-summary .status,
+    .field--type-link a {
+      text-transform: uppercase;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+    }
+  }
+}

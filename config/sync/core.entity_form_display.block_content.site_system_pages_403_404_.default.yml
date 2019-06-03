@@ -1,0 +1,49 @@
+uuid: c7907ed6-750b-4d32-a1c3-8c0a5250ef0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.site_system_pages_403_404_
+    - field.field.block_content.site_system_pages_403_404_.body
+    - field.field.block_content.site_system_pages_403_404_.field_link_
+  module:
+    - link
+    - text
+id: block_content.site_system_pages_403_404_.default
+targetEntityType: block_content
+bundle: site_system_pages_403_404_
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_link_:
+    weight: 27
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

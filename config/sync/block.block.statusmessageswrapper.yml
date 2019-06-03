@@ -1,0 +1,28 @@
+uuid: 2a26d7e0-e6bc-4814-be5d-0dc53ce2ebd9
+langcode: en
+status: true
+dependencies:
+  config:
+    - blockgroup.block_group_content.status_messages_wrapper
+  module:
+    - blockgroup
+    - system
+  theme:
+    - bootstrap_bac
+id: statusmessageswrapper
+theme: bootstrap_bac
+region: full_width_wrapper
+weight: 0
+provider: null
+plugin: 'block_group:31e45797-a798-4c9e-ac8f-786d4297ca1d'
+settings:
+  id: 'block_group:31e45797-a798-4c9e-ac8f-786d4297ca1d'
+  label: 'Status messages wrapper'
+  provider: blockgroup
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "/access-denied\r\n/not-found"
+    negate: false
+    context_mapping: {  }
