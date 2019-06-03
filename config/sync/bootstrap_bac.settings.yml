@@ -4,7 +4,7 @@ schemas:
 favicon:
   mimetype: image/vnd.microsoft.icon
   path: 'public://favicon.ico'
-  url: 'http://bacair.loc/themes/custom/bootstrap_bac/favicon.ico'
+  url: 'http://bacair.loc/sites/default/files/favicon.ico'
   use_default: 0
 features:
   comment_user_picture: 1
@@ -12,9 +12,9 @@ features:
   favicon: 1
   node_user_picture: 1
 logo:
-  path: ''
+  path: 'public://logo.png'
   url: ''
-  use_default: 1
+  use_default: 0
 fluid_container: 1
 table_responsive: '-1'
 cdn_theme: bootstrap
@@ -32,7 +32,7 @@ region_wells:
   help: ''
   content: ''
   sidebar_first: ''
-  sidebar_second: well
+  sidebar_second: ''
   footer: ''
   category_blocks_wrapper_media_center_: ''
   wrapper_menu_content: ''
