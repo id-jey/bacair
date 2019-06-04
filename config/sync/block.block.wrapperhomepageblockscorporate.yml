@@ -1,0 +1,28 @@
+uuid: 26a7bdbe-acbd-44cd-a07c-71fdb9854347
+langcode: en
+status: true
+dependencies:
+  config:
+    - blockgroup.block_group_content.wrapper_homepage_blocks_corporate_
+  module:
+    - blockgroup
+    - system
+  theme:
+    - bootstrap_bac
+id: wrapperhomepageblockscorporate
+theme: bootstrap_bac
+region: content
+weight: 0
+provider: null
+plugin: 'block_group:48e15053-dc22-4f74-9b88-fdab3ea3a5e8'
+settings:
+  id: 'block_group:48e15053-dc22-4f74-9b88-fdab3ea3a5e8'
+  label: 'Wrapper homepage blocks (corporate)'
+  provider: blockgroup
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /corporate
+    negate: false
+    context_mapping: {  }
