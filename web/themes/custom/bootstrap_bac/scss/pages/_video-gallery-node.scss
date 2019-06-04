@@ -34,7 +34,9 @@
       .field--name-field-media-oembed-video {
         border: 5px solid #fff;
         width: 100%;
-
+        &:hover {
+          outline: 1px solid #ac6c17;
+        }
         iframe {
           display: block;
           height: 320px;
