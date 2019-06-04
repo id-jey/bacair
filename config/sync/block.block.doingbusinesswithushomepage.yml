@@ -11,7 +11,7 @@ dependencies:
 id: doingbusinesswithushomepage
 theme: bootstrap_bac
 region: wrapper_homepage_blocks_corporate_
-weight: 0
+weight: -20
 provider: null
 plugin: 'system_menu_block:doing-business-with-us-home'
 settings:
