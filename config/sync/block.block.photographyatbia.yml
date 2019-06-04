@@ -1,23 +1,23 @@
-uuid: eb6c0150-2754-4955-9489-d3496cc32bdc
+uuid: c288a7bc-361f-4fee-bb79-2ebc41feab2f
 langcode: en
-status: true
+status: false
 dependencies:
   content:
-    - 'block_content:view_category_block:4f9a7002-9d43-449f-b960-361f4c94b246'
+    - 'block_content:view_category_block:062fb36e-7a87-4524-91e0-9eabfb8c1ccf'
   module:
     - block_content
     - system
   theme:
     - bootstrap_bac
-id: pressreleases
+id: photographyatbia
 theme: bootstrap_bac
 region: category_blocks_wrapper_media_center_
-weight: -18
+weight: -12
 provider: null
-plugin: 'block_content:4f9a7002-9d43-449f-b960-361f4c94b246'
+plugin: 'block_content:062fb36e-7a87-4524-91e0-9eabfb8c1ccf'
 settings:
-  id: 'block_content:4f9a7002-9d43-449f-b960-361f4c94b246'
-  label: 'Press Releases'
+  id: 'block_content:062fb36e-7a87-4524-91e0-9eabfb8c1ccf'
+  label: 'Photography at BIA'
   provider: block_content
   label_display: visible
   status: true

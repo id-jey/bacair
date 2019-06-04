@@ -105,4 +105,8 @@
     color: $pink-title;
     margin-top: 0;
   }
+  *::selection {
+    background: $pink-title;
+    color: white;
+  }
 }

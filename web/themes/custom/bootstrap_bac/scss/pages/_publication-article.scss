@@ -64,4 +64,8 @@
       }
     }
   }
+  *::selection {
+    background: $pink-title;
+    color: white;
+  }
 }

@@ -17,7 +17,7 @@ provider: null
 plugin: 'block_content:e289fd4d-7c3a-4b9b-9d76-ab934ca6fd40'
 settings:
   id: 'block_content:e289fd4d-7c3a-4b9b-9d76-ab934ca6fd40'
-  label: 'Photo & Video Gallery'
+  label: 'Video Gallery'
   provider: block_content
   label_display: visible
   status: true

@@ -5,6 +5,7 @@
   margin-right: 22px;
   #block-pressreleases,
   #block-photovideogallery,
+  #block-photogallery,
   #block-publications,
   #block-filmingandphotographyatbia,
   #block-contactus {
@@ -45,7 +46,12 @@
     }
   }
   #block-pressreleases,
-  #block-publications {
+  #block-photovideogallery,
+  #block-filmingandphotographyatbia {
     margin-right: 18px;
+  }
+  *::selection {
+    background: $pink-title;
+    color: white;
   }
 }

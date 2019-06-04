@@ -29,9 +29,13 @@
       }
     }
   }
-  #block-airlinedevelopment,
-  #block-businessopportunities {
+  #block-airlinedevelopment {
     order: 2;
     @include sidebar-menu($orange-title);
+  }
+
+  #block-businessopportunities {
+    order: 2;
+    @include sidebar-menu($blue-title);
   }
 }

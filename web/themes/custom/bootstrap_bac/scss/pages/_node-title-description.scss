@@ -1,5 +1,4 @@
-.about-us,
-.press-releases {
+.about-us {
   .field--type-text-with-summary {
     margin-bottom: 16px;
   }
@@ -8,7 +7,27 @@
       color: $red-title;
     }
   }
+  *::selection {
+    background: $red-title;
+    color: white;
+  }
 }
+
+.press-releases {
+  .field--type-text-with-summary {
+    margin-bottom: 16px;
+  }
+  .title-node {
+    span {
+      color: $pink-title;
+    }
+  }
+  *::selection {
+    background: $pink-title;
+    color: white;
+  }
+}
+
 .general-node {
   @include custom-container();
   width: 620px;
@@ -27,6 +46,7 @@
     padding-bottom: 16px;
   }
 }
+
 .filming-photography-node {
   width: 620px;
   margin-right: 22px;
@@ -50,15 +70,28 @@
   .par-seventh {
     margin-left: 15px;
   }
+  *::selection {
+    background: $pink-title;
+    color: white;
+  }
 }
-.airline-development,
-.business-opportunities {
+
+.airline-development {
   .title-node {
     span {
       color: $orange-title;
     }
   }
 }
+
+.business-opportunities {
+  .title-node {
+    span {
+      color: $blue-title;
+    }
+  }
+}
+
 .region-content {
   background-image: url("../images/background-main-content.png");
   background-position: center;
@@ -69,7 +102,7 @@
 }
 .business-opportunities {
   .par a {
-    color: $orange-title;
+    color: $blue-title;
     text-decoration: none;
     &:hover {
       color: $red-title;
@@ -80,5 +113,9 @@
       border-bottom: 1px solid $red-title;
       text-decoration: none;
     }
+  }
+  *::selection {
+    background: $blue-title;
+    color: white;
   }
 }
