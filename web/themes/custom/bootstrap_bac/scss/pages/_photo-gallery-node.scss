@@ -18,6 +18,9 @@
     a {
       display: block;
       height: 100%;
+      &:hover {
+        border: 1px solid $pink-title;
+      }
     }
   }
 
@@ -46,7 +49,7 @@
         border: 5px solid #fff;
         width: 100%;
         &:hover {
-          outline: 1px solid #ac6c17;
+          outline: 1px solid $pink-title;
         }
       }
     }
