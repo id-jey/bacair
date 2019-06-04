@@ -1,0 +1,8 @@
+uuid: fc27c4a0-4e34-44f8-88bd-bbd927a24fda
+langcode: en
+status: true
+dependencies: {  }
+id: main-menu-corporate-
+label: 'Main menu (corporate)'
+description: 'Main navigation menu for corporate portal'
+locked: false
