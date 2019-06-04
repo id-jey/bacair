@@ -1,0 +1,31 @@
+uuid: 834ac777-cace-4fd4-a929-b8a982a77513
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:view_category_block:86bd24e9-7eec-4a2c-9ca5-406e5cbb1223'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap_bac
+id: visionpurposeobjectives
+theme: bootstrap_bac
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:86bd24e9-7eec-4a2c-9ca5-406e5cbb1223'
+settings:
+  id: 'block_content:86bd24e9-7eec-4a2c-9ca5-406e5cbb1223'
+  label: 'Vision, Purpose, Objectives'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /corporate
+    negate: false
+    context_mapping: {  }

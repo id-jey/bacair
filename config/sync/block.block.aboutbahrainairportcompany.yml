@@ -1,0 +1,31 @@
+uuid: ee669ebb-51fa-4bd1-84c8-b5de68b41da2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:view_category_block:e0855a4a-56fc-43ae-b8fd-6a42fef9300e'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap_bac
+id: aboutbahrainairportcompany
+theme: bootstrap_bac
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:e0855a4a-56fc-43ae-b8fd-6a42fef9300e'
+settings:
+  id: 'block_content:e0855a4a-56fc-43ae-b8fd-6a42fef9300e'
+  label: 'About Bahrain Airport Company'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /corporate
+    negate: false
+    context_mapping: {  }
