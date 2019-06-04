@@ -1,0 +1,30 @@
+uuid: 8ec204f2-2be0-4f9d-8fd4-375286477ce6
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.doing-business-with-us-home
+  module:
+    - system
+  theme:
+    - bootstrap_bac
+id: doingbusinesswithushomepage
+theme: bootstrap_bac
+region: wrapper_homepage_blocks_corporate_
+weight: 0
+provider: null
+plugin: 'system_menu_block:doing-business-with-us-home'
+settings:
+  id: 'system_menu_block:doing-business-with-us-home'
+  label: 'Doing business with us'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    pages: /corporate
+    negate: false
+    context_mapping: {  }

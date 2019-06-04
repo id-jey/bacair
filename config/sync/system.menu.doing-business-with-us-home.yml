@@ -1,0 +1,8 @@
+uuid: c5a2524f-0e58-43a9-828d-9b650634b9af
+langcode: en
+status: true
+dependencies: {  }
+id: doing-business-with-us-home
+label: 'Doing business with us (homepage)'
+description: 'Menu with links which is located on homepage'
+locked: false
