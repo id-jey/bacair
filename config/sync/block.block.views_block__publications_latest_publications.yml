@@ -1,0 +1,30 @@
+uuid: 9a7d2822-3478-464d-bdfd-6c2c070356c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.publications
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap_bac
+id: views_block__publications_latest_publications
+theme: bootstrap_bac
+region: content
+weight: -18
+provider: null
+plugin: 'views_block:publications-latest_publications'
+settings:
+  id: 'views_block:publications-latest_publications'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /corporate
+    negate: false
+    context_mapping: {  }
