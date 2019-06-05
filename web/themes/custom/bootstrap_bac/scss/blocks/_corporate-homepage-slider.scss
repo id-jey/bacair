@@ -1,0 +1,47 @@
+#block-views-block-corporate-homepage-slider-corporate-homepage-slider {
+  margin-top: -25px;
+  .view-content {
+    #slick-views-corporate-homepage-slider-corporate-homepage-slider-1 {
+      .slick-prev {
+        background: url("../images/corporate-slider-sprite.png") no-repeat -15px -40px;
+        border-radius: 0;
+        width: 35px;
+        height: 50px;
+        &:hover {
+          background-position: -218px -40px;
+        }
+        &:before {
+          display: none;
+        }
+      }
+      .slick-next {
+        background: url("../images/corporate-slider-sprite.png") no-repeat -81px -40px;
+        border-radius: 0;
+        width: 35px;
+        height: 50px;
+        &:hover {
+          background-position: -149px -40px;
+        }
+        &:before {
+          display: none;
+        }
+      }
+
+      .slick-dots {
+        background: url("../images/corporate-slider-sprite.png") no-repeat center -121px;
+        height: 80px;
+        padding-top: 30px;
+        li {
+          background: url("../images/corporate-slider-sprite.png") no-repeat -41px -226px;
+          border-radius: 0;
+          button:before {
+            display: none;
+          }
+          &.slick-active {
+            background-position: -10px -229px;
+          }
+        }
+      }
+    }
+  }
+}
