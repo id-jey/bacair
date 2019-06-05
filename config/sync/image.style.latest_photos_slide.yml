@@ -1,0 +1,15 @@
+uuid: 66e08df3-13d6-4ada-9257-5c0b1949a200
+langcode: en
+status: true
+dependencies: {  }
+name: latest_photos_slide
+label: 'Latest photos slide'
+effects:
+  ef36cd53-b2b1-4bae-8439-ede9fa8316ce:
+    uuid: ef36cd53-b2b1-4bae-8439-ede9fa8316ce
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 468
+      height: 318
+      anchor: center-center

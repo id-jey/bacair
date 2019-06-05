@@ -11,8 +11,8 @@ dependencies:
     - bootstrap_bac
 id: aboutbahrainairportcompany
 theme: bootstrap_bac
-region: content
-weight: -18
+region: wrapper_homepage_blocks_corporate_
+weight: -21
 provider: null
 plugin: 'block_content:e0855a4a-56fc-43ae-b8fd-6a42fef9300e'
 settings:
