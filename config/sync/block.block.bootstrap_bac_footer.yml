@@ -13,7 +13,7 @@ _core:
 id: bootstrap_bac_footer
 theme: bootstrap_bac
 region: footer
-weight: -16
+weight: -22
 provider: null
 plugin: 'system_menu_block:footer'
 settings:

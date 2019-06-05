@@ -11,7 +11,7 @@ dependencies:
 id: copyright
 theme: bootstrap_bac
 region: footer
-weight: 0
+weight: -23
 provider: null
 plugin: 'block_content:7ed88cc3-d119-4d3a-b83f-0b7f5954c25f'
 settings:

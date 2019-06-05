@@ -9,7 +9,7 @@ dependencies:
 id: socialmedialinks
 theme: bootstrap_bac
 region: footer
-weight: 0
+weight: -21
 provider: null
 plugin: social_media_links_block
 settings:
