@@ -86,15 +86,15 @@ display:
           override: true
           overridables:
             arrows: arrows
+            autoplay: autoplay
             dots: dots
             infinite: infinite
-            autoplay: '0'
             draggable: '0'
             mouseWheel: '0'
             randomize: '0'
             variableWidth: '0'
           cache: 0
-          current_view_mode: block_1
+          current_view_mode: corporate_homepage_slider
           thumbnail_effect: hover
       row:
         type: fields
