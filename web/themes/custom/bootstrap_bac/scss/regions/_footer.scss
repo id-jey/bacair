@@ -1,0 +1,88 @@
+.footer {
+  margin-top: 0;
+  padding-top: 37px;
+  padding-bottom: 37px;
+  background: linear-gradient(to bottom, #525252 2%, #292929 16%, #272727 72%);
+  .region-footer {
+    @include custom-container();
+    display: flex;
+    flex-wrap: wrap;
+    #block-copyright {
+      color: #999999;
+      font-size: 1.2rem;
+      flex: 100%;
+      margin-bottom: 10px;
+    }
+    #block-bootstrap-bac-footer {
+      flex: 30%;
+      .menu--footer {
+        display: flex;
+        li {
+          padding: 0 8px 0 7px;
+          height: 1.2rem;
+          border-left: 1px solid #999999;
+        }
+        li a {
+          padding: 0;
+          color: rgb(255, 255, 255);
+          font-size: 1.2rem;
+          line-height: 1.2rem;
+          &:hover {
+            background: transparent;
+            color: $red-title;
+          }
+        }
+      }
+    }
+    #block-socialmedialinks {
+      flex: 5%;
+      .social-media-links--platforms {
+        li {
+          padding: 0;
+          overflow: hidden;
+          margin-right: 5px;
+        }
+        a span {
+          display: inline-block;
+          margin-top: -2px;
+          margin-left: -1px;
+          height: 18px;
+          width: 16px;
+          border-radius: 8px;
+        }
+        .fa-facebook-f:before, .fa-facebook:before {
+          content: "\f082";
+        }
+        .fa-twitter:before {
+          content: "\f081";
+        }
+        .fa-instagram:before {
+          content: "\f16d";
+        }
+        .fa-feed:before,
+        .fa-rss:before {
+          content: "\f143";
+        }
+        .fa-linkedin:before {
+          content: "\f08c";
+        }
+        .fa-2x {
+          font-size: 2rem;
+          line-height: 2rem;
+          background: rgb(255, 255, 255);
+          color: #404040;
+        }
+      }
+    }
+    #block-awardsofbacimages {
+      flex: 30%;
+      .field--name-field-image- {
+        display: flex;
+        justify-content: flex-end;
+        .field--item {
+          margin-left: 3px;
+        }
+      }
+    }
+  }
+}
