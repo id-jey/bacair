@@ -1,25 +1,25 @@
-uuid: 0a46eabc-764f-42b7-a7c0-ebc4fda2827f
+uuid: 9cd1db81-b29a-422f-a5d1-60cd685f06b5
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.publications
+    - views.view.corporate_homepage_slider
   module:
     - system
     - views
   theme:
     - bootstrap_bac
-id: views_block__publications_latest_publications
+id: views_block__corporate_homepage_slider_corporate_homepage_slider
 theme: bootstrap_bac
 region: content
-weight: -18
+weight: -20
 provider: null
-plugin: 'views_block:publications-latest_publications'
+plugin: 'views_block:corporate_homepage_slider-corporate_homepage_slider'
 settings:
-  id: 'views_block:publications-latest_publications'
+  id: 'views_block:corporate_homepage_slider-corporate_homepage_slider'
   label: ''
   provider: views
-  label_display: visible
+  label_display: '0'
   views_label: ''
   items_per_page: none
 visibility:
