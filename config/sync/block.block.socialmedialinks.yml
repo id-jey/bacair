@@ -1,0 +1,112 @@
+uuid: e2ae3a5e-ab8e-4a56-b0c0-f9856a3173c2
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_media_links
+  theme:
+    - bootstrap_bac
+id: socialmedialinks
+theme: bootstrap_bac
+region: footer
+weight: 0
+provider: null
+plugin: social_media_links_block
+settings:
+  id: social_media_links_block
+  label: 'Social Media Links'
+  provider: social_media_links
+  label_display: '0'
+  platforms:
+    facebook:
+      value: Bahrain.Airport
+      description: ''
+      weight: '-30'
+    twitter:
+      value: bahrainairport
+      description: ''
+      weight: '-29'
+    instagram:
+      value: bahrain_airport_company/
+      description: ''
+      weight: '-28'
+    rss:
+      value: '#'
+      description: ''
+      weight: '-27'
+    linkedin:
+      value: company/1063748
+      description: ''
+      weight: '-26'
+    vimeo:
+      value: ''
+      description: ''
+      weight: '-25'
+    github:
+      value: ''
+      description: ''
+      weight: '-24'
+    contact:
+      value: ''
+      description: ''
+      weight: '-23'
+    vkontakte:
+      value: ''
+      description: ''
+      weight: '-22'
+    drupal:
+      value: ''
+      description: ''
+      weight: '-21'
+    flickr:
+      value: ''
+      description: ''
+      weight: '-20'
+    slideshare:
+      value: ''
+      description: ''
+      weight: '-19'
+    behance:
+      value: ''
+      description: ''
+      weight: '-18'
+    email:
+      value: ''
+      description: ''
+      weight: '-17'
+    youtube_channel:
+      value: ''
+      description: ''
+      weight: '-16'
+    youtube:
+      value: ''
+      description: ''
+      weight: '-15'
+    pinterest:
+      value: ''
+      description: ''
+      weight: '-14'
+    bitbucket:
+      value: ''
+      description: ''
+      weight: '-13'
+    googleplus:
+      value: ''
+      description: ''
+      weight: '-12'
+    tumblr:
+      value: ''
+      description: ''
+      weight: '-11'
+  appearance:
+    orientation: h
+    show_name: 0
+  link_attributes:
+    target: '<none>'
+    rel: '<none>'
+  iconset:
+    style: 'fontawesome:2x'
+    installed_iconsets:
+      fontawesome:
+        examples: ''
+visibility: {  }

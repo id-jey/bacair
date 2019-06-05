@@ -1,0 +1,25 @@
+uuid: 6bf076ec-0d00-40f3-b986-26ef46438d2b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7ed88cc3-d119-4d3a-b83f-0b7f5954c25f'
+  module:
+    - block_content
+  theme:
+    - bootstrap_bac
+id: copyright
+theme: bootstrap_bac
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:7ed88cc3-d119-4d3a-b83f-0b7f5954c25f'
+settings:
+  id: 'block_content:7ed88cc3-d119-4d3a-b83f-0b7f5954c25f'
+  label: Copyright
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
