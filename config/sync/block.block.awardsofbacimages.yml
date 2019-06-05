@@ -1,0 +1,25 @@
+uuid: a102d79c-2b08-4f9b-a1fd-44e6f382734e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:block_with_images:dbcee6d7-980a-4879-914d-4c77b2fc55ae'
+  module:
+    - block_content
+  theme:
+    - bootstrap_bac
+id: awardsofbacimages
+theme: bootstrap_bac
+region: footer
+weight: -20
+provider: null
+plugin: 'block_content:dbcee6d7-980a-4879-914d-4c77b2fc55ae'
+settings:
+  id: 'block_content:dbcee6d7-980a-4879-914d-4c77b2fc55ae'
+  label: 'Awards of BAC images'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
