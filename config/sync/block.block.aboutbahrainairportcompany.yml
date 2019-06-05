@@ -12,7 +12,7 @@ dependencies:
 id: aboutbahrainairportcompany
 theme: bootstrap_bac
 region: content
-weight: 0
+weight: -18
 provider: null
 plugin: 'block_content:e0855a4a-56fc-43ae-b8fd-6a42fef9300e'
 settings:

@@ -12,7 +12,7 @@ dependencies:
 id: wrappermenucontent
 theme: bootstrap_bac
 region: content
-weight: -20
+weight: -22
 provider: null
 plugin: 'block_group:da3c1c0f-179a-472e-9d1d-472e03f5731c'
 settings:

@@ -1,25 +1,25 @@
-uuid: 0a46eabc-764f-42b7-a7c0-ebc4fda2827f
+uuid: fa46516d-45b4-43e3-b759-0785b0f0d3f4
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.publications
+    - views.view.latest_photo
   module:
     - system
     - views
   theme:
     - bootstrap_bac
-id: views_block__publications_latest_publications
+id: views_block__latest_photo_latest_photos
 theme: bootstrap_bac
 region: content
-weight: -19
+weight: -17
 provider: null
-plugin: 'views_block:publications-latest_publications'
+plugin: 'views_block:latest_photo-latest_photos'
 settings:
-  id: 'views_block:publications-latest_publications'
+  id: 'views_block:latest_photo-latest_photos'
   label: ''
   provider: views
-  label_display: visible
+  label_display: '0'
   views_label: ''
   items_per_page: none
 visibility:

@@ -12,7 +12,7 @@ dependencies:
 id: visionpurposeobjectives
 theme: bootstrap_bac
 region: content
-weight: 0
+weight: -16
 provider: null
 plugin: 'block_content:86bd24e9-7eec-4a2c-9ca5-406e5cbb1223'
 settings:

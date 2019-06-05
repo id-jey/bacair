@@ -12,7 +12,7 @@ dependencies:
 id: wrapperhomepageblockscorporate
 theme: bootstrap_bac
 region: content
-weight: -17
+weight: -20
 provider: null
 plugin: 'block_group:48e15053-dc22-4f74-9b88-fdab3ea3a5e8'
 settings:
