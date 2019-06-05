@@ -1,0 +1,120 @@
+#block-views-block-publications-latest-publications {
+  width: 471px;
+  height: 320px;
+  padding: 15px 16px 0 18px;
+  border: 1px solid #818181;
+  border-left: 0;
+  margin-right: calc(50% - 471px);
+  display: inline-block;
+  h2 {
+    color: $blocks-title;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 0;
+  }
+  .view-id-publications {
+    width: 100%;
+    margin: 0;
+    background: none;
+    box-shadow: none;
+    padding: 0;
+    .view-header {
+      margin-bottom: 10px;
+    }
+    .view-content {
+      .views-field-field-promo-image {
+        float: left;
+        margin-right: 10px;
+      }
+      .views-field-created {
+        display: table;
+        color: $pink-title;
+        font-weight: 600;
+        margin: 0;
+        line-height: 1rem;
+        font-size: 12px;
+      }
+      .views-field-title {
+        display: table;
+        padding-top: 5px;
+        font-size: 16px;
+        line-height: 16px;
+        font-weight: 600;
+
+        a {
+          color: $node-btn-black;
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+      .views-field-field-body {
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+      }
+      .views-field-view-node {
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+        text-align: right;
+        a {
+          display: inline-block;
+          color: white;
+          text-transform: uppercase;
+          text-decoration: none;
+          font-weight: 700;
+          padding: 4px;
+          border-radius: 3px;
+          background: $red-title;
+        }
+      }
+      .slick__arrow {
+        position: static;
+        button {
+          font-size: 12px;
+          position: static;
+          width: auto;
+          height: 20px;
+          display: inline-block;
+          color: white;
+          background: black;
+          border-radius: 3px;
+          transform: none;
+          padding: 5px 10px;
+          text-transform: uppercase;
+          font-weight: bold;
+          &:before {
+            content: "〈";
+            font-size: 15px;
+            line-height: 0;
+            margin-right: 15px;
+            color: white;
+            font-weight: 900;
+
+            opacity: 1;
+          }
+          &:first-child {
+            margin-right: 30px;
+            padding-left: 0;
+          }
+          &:last-child {
+            padding-right: 0;
+            &:before {
+              display: none;
+            }
+            &:after {
+              content: "〉";
+              font-size: 15px;
+              line-height: 1px;
+              margin-left: 15px;
+              color: white;
+              font-weight: 900;
+              vertical-align: middle;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
