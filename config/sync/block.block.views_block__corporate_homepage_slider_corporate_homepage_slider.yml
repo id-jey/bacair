@@ -12,7 +12,7 @@ dependencies:
 id: views_block__corporate_homepage_slider_corporate_homepage_slider
 theme: bootstrap_bac
 region: content
-weight: -20
+weight: -21
 provider: null
 plugin: 'views_block:corporate_homepage_slider-corporate_homepage_slider'
 settings:
