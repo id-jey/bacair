@@ -1,0 +1,8 @@
+uuid: f004ef97-0a35-43be-a8d1-7d03f3684ffb
+langcode: en
+status: true
+dependencies: {  }
+name: 'Corporate homepage slides'
+vid: corporate_homepage_slides
+description: 'Slides for Corporate homepage slider'
+weight: 0

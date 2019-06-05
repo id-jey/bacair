@@ -1,0 +1,11 @@
+uuid: 4d90d380-265d-4012-9618-83ca7daaacb7
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.corporate_homepage_slides
+id: taxonomy_term.corporate_homepage_slides
+target_entity_type_id: taxonomy_term
+target_bundle: corporate_homepage_slides
+default_langcode: site_default
+language_alterable: false

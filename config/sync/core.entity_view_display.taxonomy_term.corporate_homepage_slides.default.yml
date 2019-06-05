@@ -1,0 +1,47 @@
+uuid: 3a9c1afc-d974-41bc-9115-284c6628580e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.corporate_homepage_slides.field_slide_link
+    - field.field.taxonomy_term.corporate_homepage_slides.field_slide_photo
+    - taxonomy.vocabulary.corporate_homepage_slides
+  module:
+    - link
+    - media
+    - text
+id: taxonomy_term.corporate_homepage_slides.default
+targetEntityType: taxonomy_term
+bundle: corporate_homepage_slides
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_slide_link:
+    weight: 2
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_slide_photo:
+    type: media_thumbnail
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

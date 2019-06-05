@@ -1,0 +1,23 @@
+uuid: 6b8d3ef0-98ff-4ed8-adbe-8241fe5e5bb5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_slide_link
+    - taxonomy.vocabulary.corporate_homepage_slides
+  module:
+    - link
+id: taxonomy_term.corporate_homepage_slides.field_slide_link
+field_name: field_slide_link
+entity_type: taxonomy_term
+bundle: corporate_homepage_slides
+label: 'Slide link'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 1
+  title: 1
+field_type: link

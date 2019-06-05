@@ -1,0 +1,28 @@
+uuid: 94100c34-5d51-4773-9b38-5cbceaf74f5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_slide_photo
+    - media.type.image
+    - taxonomy.vocabulary.corporate_homepage_slides
+id: taxonomy_term.corporate_homepage_slides.field_slide_photo
+field_name: field_slide_photo
+entity_type: taxonomy_term
+bundle: corporate_homepage_slides
+label: 'Slide photo'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

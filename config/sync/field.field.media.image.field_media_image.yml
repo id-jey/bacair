@@ -30,7 +30,7 @@ translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
-  file_directory: 'fields/media.image.field_media_image/[date:custom:Y]-[date:custom:m]'
+  file_directory: 'fields/[date:custom:Y]-[date:custom:m]'
   file_extensions: 'png gif jpg jpeg'
   max_filesize: ''
   max_resolution: ''

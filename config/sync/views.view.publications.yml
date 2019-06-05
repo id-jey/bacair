@@ -513,9 +513,9 @@ display:
       style:
         type: slick
         options:
-          vanilla: false
+          vanilla: true
           optionset: default
-          skin: ''
+          skin: classic
           layout: ''
           caption:
             field_promo_image: field_promo_image
@@ -558,6 +558,7 @@ display:
         row: false
         pager: false
         fields: false
+        header: false
       row:
         type: fields
         options: {  }
@@ -861,6 +862,20 @@ display:
           absolute: false
           entity_type: node
           plugin_id: entity_link
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: true
+          tokenize: false
+          content:
+            value: "<p class=\"pub-page-sub-slogan\">You can find the latest updates about\r\n      Bahrain Airport Company and Bahrain International Airport within this\r\n      section.\r\n</p>"
+            format: full_html
+          plugin_id: text
     cache_metadata:
       max-age: -1
       contexts:
