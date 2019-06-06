@@ -165,4 +165,120 @@
       }
     }
   }
+
+  // Corporate homepage
+  #block-visionpurposeobjectives,
+  #block-aboutbahrainairportcompany {
+    .field--name-field-link {
+      left: 0;
+      right: 10px;
+    }
+  }
+
+  #block-views-block-corporate-homepage-slider-corporate-homepage-slider {
+    #slick-views-corporate-homepage-slider-corporate-homepage-slider-1 {
+      .slick-next {
+        background-position: -15px -40px;
+        left: -1px;
+        &:hover {
+          background-position: -218px -40px;
+        }
+      }
+
+      .slick-prev {
+        background-position: -81px -40px;
+        right: -3px;
+        &:hover {
+          background-position: -149px -40px;
+        }
+      }
+    }
+  }
+
+
+  #block-views-block-latest-photo-latest-photos {
+    .slick-next {
+      background-position: -15px -40px;
+      left: 0;
+    }
+
+    .slick-prev {
+      background-position: -81px -40px;
+      right: 0;
+    }
+  }
+
+  #block-visionpurposeobjectives,
+  #block-aboutbahrainairportcompany {
+    h2 {
+      margin-bottom: 20px;
+    }
+    .field--name-body {
+      padding-bottom: 29px;
+      font-size: 1.3rem;
+      line-height: 1.3rem;
+    }
+  }
+
+  #block-doingbusinesswithushomepage {
+    .menu {
+      padding-right: 0;
+      li {
+        a {
+          background-image: url("../images/right-black-arrow .png");
+          background-position: center right;
+        }
+        &:nth-child(5) {
+          left: 15px;
+          right: unset;
+          a {
+            background: unset;
+          }
+          &:after {
+            right: unset;
+            left: -25px;
+          }
+        }
+        &:nth-child(6) {
+          left: 15px;
+          right: unset;
+          top: 130px;
+          a {
+            background: url("../images/right-red-arrow.png") no-repeat center right;
+          }
+        }
+      }
+    }
+  }
+
+  #block-views-block-publications-latest-publications {
+    .view-id-publications {
+      .view-content {
+        .views-field-view-node {
+          margin-top: 10px;
+        }
+        .slick__arrow {
+          margin-top: 20px;
+          display: flex;
+          justify-content: flex-end;
+          .slick-prev {
+            margin-right: 0;
+            margin-left: 30px;
+            padding-left: 10px;
+            &::before {
+              margin-left: 10px;
+              margin-right: 0;
+            }
+          }
+          .slick-next {
+            padding-right: 10px;
+            &::after {
+              margin-right: 10px;
+              margin-left: 0;
+            }
+          }
+        }
+      }
+    }
+  }
 }

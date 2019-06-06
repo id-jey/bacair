@@ -18,24 +18,23 @@ function bootstrap_bac_preprocess_region(&$variables) {
   $page = \Drupal::request()->getRequestUri();
   $url_element = explode('/', $page);
 
-
   $link_to_home_corporate['link_switch_corporate'] = [
     '#type' => 'html_tag',
     '#tag' => 'a',
-    '#href' => '/',
     '#value' => 'Switch to corporate portal',
     '#attributes' => [
-      'class' => 'to-corporate'
+      'class' => 'to-corporate',
+      'href' => '/',
     ]
   ];
 
   $link_to_home_travel['link_switch_travel'] = [
     '#type' => 'html_tag',
     '#tag' => 'a',
-    '#href' => '/',
     '#value' => 'Switch to travel portal',
     '#attributes' => [
-      'class' => 'to-traveller'
+      'class' => 'to-traveller',
+      'href' => '/',
     ]
   ];
 
@@ -46,4 +45,25 @@ function bootstrap_bac_preprocess_region(&$variables) {
     $variables['link_to_home'] = $link_to_home_corporate;
   }
 
+}
+
+function bootstrap_bac_preprocess_links__language_block(&$variables) {
+  $current_language = \Drupal::languageManager()->getCurrentLanguage()
+    ->getId();
+  foreach ($variables['links'] as $i => $link) {
+    $linkLanguage = $link['link']['#options']['language'];
+    // Set the key of active link as activeLink.
+    if ($current_language == $linkLanguage->get('id')) {
+      $variables['links']['activeLink'] = $link;
+      unset($variables['links'][$i]);
+    }
+  }
+
+  // Unset active link from array of links and set other as alternate.
+  if (sizeof($variables['links']) == 2) {
+    unset($variables['links']['activeLink']);
+
+    $alternate = current($variables['links']);
+    $variables['links'] = [$alternate];
+  }
 }

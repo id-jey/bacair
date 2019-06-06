@@ -12,6 +12,9 @@ display:
           sort_desc_label: تنازلي
       pager:
         options:
+          tags:
+            previous: السابق
+            next: التالى
           expose:
             items_per_page_options_all_label: '- الكل -'
       fields:
@@ -44,6 +47,9 @@ display:
     display_options:
       pager:
         options:
+          tags:
+            previous: السابق
+            next: التالى
           expose:
             items_per_page_options_all_label: '- الكل -'
       fields:

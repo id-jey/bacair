@@ -1,4 +1,4 @@
-uuid: fdfc683c-95a5-4e37-9180-ef25ae103379
+uuid: 16a117b7-c0cf-45be-9cc9-44a7cdb05f46
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
 id: searchform
 theme: bootstrap_bac
 region: navigation
-weight: -23
+weight: 0
 provider: null
 plugin: search_form_block
 settings:
