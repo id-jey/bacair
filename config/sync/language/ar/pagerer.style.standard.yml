@@ -2,6 +2,8 @@ default_config:
   tags:
     pages:
       prefix_label: الصفحة
+      previous: السابق
+      next: التالى
       page_title: 'الذهاب إلى الصفحة @number'
       first_title: 'الذهاب إلى الصفحة الأولى'
       previous_title: 'الذهاب إلى الصفحة السابقة'
@@ -10,8 +12,12 @@ default_config:
       page_reader: الصفحة
     items:
       prefix_label: عنصر
+      previous: السابق
+      next: التالى
       page_reader: عنصر
       first_reader: 'أول عنصر'
     item_ranges:
       prefix_label: أخبار
+      previous: السابق
+      next: التالى
       page_reader: أخبار
