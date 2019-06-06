@@ -1,0 +1,8 @@
+uuid: 0db9bbea-41c0-4411-9aaf-288cb023fdad
+langcode: en
+status: true
+dependencies: {  }
+name: 'Car rentals'
+vid: car_rentals
+description: 'List of car rentals services'
+weight: 0
