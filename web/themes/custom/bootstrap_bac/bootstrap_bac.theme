@@ -24,14 +24,14 @@ function bootstrap_bac_preprocess_region(&$variables) {
     '#value' => 'Switch to corporate portal',
     '#attributes' => [
       'class' => 'to-corporate',
-      'href' => '/',
+      'href' => '/corporate',
     ]
   ];
 
   $link_to_home_travel['link_switch_travel'] = [
     '#type' => 'html_tag',
     '#tag' => 'a',
-    '#value' => 'Switch to travel portal',
+    '#value' => 'Switch to traveller portal',
     '#attributes' => [
       'class' => 'to-traveller',
       'href' => '/',

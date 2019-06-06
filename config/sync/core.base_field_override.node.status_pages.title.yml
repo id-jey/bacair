@@ -1,0 +1,18 @@
+uuid: 33685395-4cdb-486b-b828-51fc0f94260c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.status_pages
+id: node.status_pages.title
+field_name: title
+entity_type: node
+bundle: status_pages
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

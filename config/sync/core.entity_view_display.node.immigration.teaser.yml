@@ -1,0 +1,32 @@
+uuid: da64202d-acdd-4c65-a86e-e2d976e78339
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.immigration.body
+    - node.type.immigration
+  module:
+    - text
+    - user
+id: node.immigration.teaser
+targetEntityType: node
+bundle: immigration
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  langcode: true

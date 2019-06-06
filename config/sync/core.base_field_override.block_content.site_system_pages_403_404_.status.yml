@@ -1,0 +1,22 @@
+uuid: c2ef7cb3-993e-4e1f-8731-eaa92941765c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.site_system_pages_403_404_
+id: block_content.site_system_pages_403_404_.status
+field_name: status
+entity_type: block_content
+bundle: site_system_pages_403_404_
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

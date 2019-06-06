@@ -1,0 +1,18 @@
+uuid: 95da28b4-56aa-484f-914b-d6950481835a
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.corporate_homepage_slides
+id: taxonomy_term.corporate_homepage_slides.name
+field_name: name
+entity_type: taxonomy_term
+bundle: corporate_homepage_slides
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,22 @@
+uuid: 83be4f1a-7eb4-4323-8e77-7ef8d05d9cb8
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.corporate_homepage_slides
+id: taxonomy_term.corporate_homepage_slides.status
+field_name: status
+entity_type: taxonomy_term
+bundle: corporate_homepage_slides
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

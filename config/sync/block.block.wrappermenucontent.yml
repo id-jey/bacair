@@ -23,6 +23,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: "/corporate/airline-development\r\n/corporate/airline-development/*\r\n/corporate/about-us\r\n/corporate/about-us/*\r\n/corporate/business-opportunities\r\n/corporate/business-opportunities/*\r\n/contactus\r\n/corporate/media-center\r\n/corporate/media-center/*"
+    pages: "/corporate/airline-development\r\n/corporate/airline-development/*\r\n/corporate/about-us\r\n/corporate/about-us/*\r\n/corporate/business-opportunities\r\n/corporate/business-opportunities/*\r\n/contactus\r\n/corporate/media-center\r\n/corporate/media-center/*\r\n/before-you-fly/immigration\r\n/before-you-fly/immigration/*"
     negate: false
     context_mapping: {  }

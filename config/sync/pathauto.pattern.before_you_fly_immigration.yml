@@ -1,0 +1,22 @@
+uuid: e0806759-4e42-4e09-b749-d9c19486915c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: before_you_fly_immigration
+label: 'Before You Fly Immigration'
+type: 'canonical_entities:node'
+pattern: '/before-you-fly/immigration/[node:title]'
+selection_criteria:
+  10eba312-8419-4791-b405-a02f2b2a203d:
+    id: node_type
+    bundles:
+      immigration: immigration
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 10eba312-8419-4791-b405-a02f2b2a203d
+selection_logic: and
+weight: -5
+relationships: {  }
