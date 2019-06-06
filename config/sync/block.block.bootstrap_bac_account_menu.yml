@@ -1,6 +1,6 @@
 uuid: 57ec5583-a95c-4804-bc7e-c0a297f602ae
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.account
@@ -13,7 +13,7 @@ _core:
 id: bootstrap_bac_account_menu
 theme: bootstrap_bac
 region: navigation
-weight: -18
+weight: -21
 provider: null
 plugin: 'system_menu_block:account'
 settings:

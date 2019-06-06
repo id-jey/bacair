@@ -13,3 +13,37 @@ function bootstrap_bac_preprocess_html (&$variables) {
     $variables['#attached']['library'][] = 'bootstrap_bac/rtl';
   }
 }
+
+function bootstrap_bac_preprocess_region(&$variables) {
+  $page = \Drupal::request()->getRequestUri();
+  $url_element = explode('/', $page);
+
+
+  $link_to_home_corporate['link_switch_corporate'] = [
+    '#type' => 'html_tag',
+    '#tag' => 'a',
+    '#href' => '/',
+    '#value' => 'Switch to corporate portal',
+    '#attributes' => [
+      'class' => 'to-corporate'
+    ]
+  ];
+
+  $link_to_home_travel['link_switch_travel'] = [
+    '#type' => 'html_tag',
+    '#tag' => 'a',
+    '#href' => '/',
+    '#value' => 'Switch to travel portal',
+    '#attributes' => [
+      'class' => 'to-traveller'
+    ]
+  ];
+
+  if (in_array('corporate', $url_element)) {
+    $variables['link_to_home'] = $link_to_home_travel;
+  }
+  else {
+    $variables['link_to_home'] = $link_to_home_corporate;
+  }
+
+}
