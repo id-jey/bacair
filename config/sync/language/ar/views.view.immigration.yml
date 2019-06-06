@@ -1,0 +1,7 @@
+label: هجرة
+display:
+  default:
+    display_options:
+      fields:
+        view_node:
+          text: 'قراءة المزيد...  〉'
