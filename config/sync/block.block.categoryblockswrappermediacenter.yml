@@ -12,7 +12,7 @@ dependencies:
 id: categoryblockswrappermediacenter
 theme: bootstrap_bac
 region: wrapper_menu_content
-weight: -9
+weight: -16
 provider: null
 plugin: 'block_group:b4d02120-3916-4d85-9918-95548fcc77ef'
 settings:

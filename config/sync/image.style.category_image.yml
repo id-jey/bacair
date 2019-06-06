@@ -1,0 +1,14 @@
+uuid: 97fa2f54-0da8-4770-81f1-181d67ef75ac
+langcode: en
+status: true
+dependencies: {  }
+name: category_image
+label: 'Category image'
+effects:
+  bdf940b3-0544-41e0-a18a-a50c733aa291:
+    uuid: bdf940b3-0544-41e0-a18a-a50c733aa291
+    id: image_resize
+    weight: 1
+    data:
+      width: 82
+      height: 51

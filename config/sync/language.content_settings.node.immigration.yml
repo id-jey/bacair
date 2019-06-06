@@ -1,18 +1,18 @@
-uuid: 36c7298a-58f5-4450-bac6-602b074a009d
+uuid: 1167e3ec-078c-4254-88ad-1765ffc1d06c
 langcode: en
 status: true
 dependencies:
   config:
-    - node.type.status_pages
+    - node.type.immigration
   module:
     - content_translation
 third_party_settings:
   content_translation:
-    enabled: false
+    enabled: true
     bundle_settings:
       untranslatable_fields_hide: '0'
-id: node.status_pages
+id: node.immigration
 target_entity_type_id: node
-target_bundle: status_pages
+target_bundle: immigration
 default_langcode: site_default
-language_alterable: false
+language_alterable: true

@@ -1,22 +1,22 @@
-uuid: a119a621-2a08-4540-a66a-9bbd275ef06c
+uuid: c3588a78-ef4a-423e-bd79-dfa21d22f9cd
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.photo_gallery
+    - views.view.immigration
   module:
     - system
     - views
   theme:
     - bootstrap_bac
-id: views_block__photo_gallery_photo_gallery
+id: views_block__immigration_block_1
 theme: bootstrap_bac
 region: wrapper_menu_content
-weight: -18
+weight: -14
 provider: null
-plugin: 'views_block:photo_gallery-photo_gallery'
+plugin: 'views_block:immigration-block_1'
 settings:
-  id: 'views_block:photo_gallery-photo_gallery'
+  id: 'views_block:immigration-block_1'
   label: ''
   provider: views
   label_display: '0'
@@ -25,6 +25,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /corporate/media-center/gallery/photo
+    pages: /before-you-fly/immigration
     negate: false
     context_mapping: {  }

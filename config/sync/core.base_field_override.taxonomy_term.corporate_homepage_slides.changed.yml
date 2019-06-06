@@ -1,0 +1,18 @@
+uuid: 203eb1c5-cfbe-4a34-92c1-169426c490de
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.corporate_homepage_slides
+id: taxonomy_term.corporate_homepage_slides.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: corporate_homepage_slides
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

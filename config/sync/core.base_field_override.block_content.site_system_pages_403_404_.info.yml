@@ -1,0 +1,18 @@
+uuid: cad7fc9d-beea-4dff-bdee-d688635f39fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.site_system_pages_403_404_
+id: block_content.site_system_pages_403_404_.info
+field_name: info
+entity_type: block_content
+bundle: site_system_pages_403_404_
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

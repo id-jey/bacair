@@ -1,0 +1,18 @@
+uuid: aae98994-381d-4cd5-8070-e7d792240ebc
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.site_system_pages_403_404_
+id: block_content.site_system_pages_403_404_.changed
+field_name: changed
+entity_type: block_content
+bundle: site_system_pages_403_404_
+label: Changed
+description: 'The time that the custom block was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed
