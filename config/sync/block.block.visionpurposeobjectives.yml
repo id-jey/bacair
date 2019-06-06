@@ -11,8 +11,8 @@ dependencies:
     - bootstrap_bac
 id: visionpurposeobjectives
 theme: bootstrap_bac
-region: wrapper_homepage_blocks_corporate_
-weight: -20
+region: content
+weight: -17
 provider: null
 plugin: 'block_content:86bd24e9-7eec-4a2c-9ca5-406e5cbb1223'
 settings:

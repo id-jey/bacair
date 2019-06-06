@@ -559,6 +559,7 @@ display:
         pager: false
         fields: false
         header: false
+        title: false
       row:
         type: fields
         options: {  }
@@ -876,6 +877,7 @@ display:
             value: "<p class=\"pub-page-sub-slogan\">You can find the latest updates about\r\n      Bahrain Airport Company and Bahrain International Airport within this\r\n      section.\r\n</p>"
             format: full_html
           plugin_id: text
+      title: 'Latest publications'
     cache_metadata:
       max-age: -1
       contexts:
