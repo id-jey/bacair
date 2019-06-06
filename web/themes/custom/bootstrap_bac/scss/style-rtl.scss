@@ -165,4 +165,46 @@
       }
     }
   }
+
+  // Corporate homepage
+  #block-visionpurposeobjectives,
+  #block-aboutbahrainairportcompany {
+    .field--name-field-link {
+      left: 0;
+      right: 10px;
+    }
+  }
+
+  #block-views-block-corporate-homepage-slider-corporate-homepage-slider {
+    #slick-views-corporate-homepage-slider-corporate-homepage-slider-1 {
+      .slick-next {
+        background-position: -15px -40px;
+        left: -1px;
+        &:hover {
+          background-position: -218px -40px;
+        }
+      }
+
+      .slick-prev {
+        background-position: -81px -40px;
+        right: -3px;
+        &:hover {
+          background-position: -149px -40px;
+        }
+      }
+    }
+  }
+
+
+  #block-views-block-latest-photo-latest-photos {
+    .slick-next {
+      background-position: -15px -40px;
+      left: 0;
+    }
+
+    .slick-prev {
+      background-position: -81px -40px;
+      right: 0;
+    }
+  }
 }
