@@ -12,6 +12,9 @@ display:
         options:
           expose:
             items_per_page_options_all_label: '- الكل -'
+          tags:
+            previous: السابق
+            next: التالى
     display_title: الرئيسي
   feed_1:
     display_title: التلقيمة
