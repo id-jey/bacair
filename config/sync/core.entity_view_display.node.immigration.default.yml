@@ -1,0 +1,32 @@
+uuid: 5571bfc6-5803-43fc-8a5e-de83c464ed32
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.immigration.body
+    - field.field.node.immigration.field_category_image
+    - node.type.immigration
+  module:
+    - text
+    - user
+id: node.immigration.default
+targetEntityType: node
+bundle: immigration
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  addtoany: true
+  field_category_image: true
+  langcode: true

@@ -1,17 +1,17 @@
-uuid: 1ecaf4f5-0dd9-4825-bdd3-2fe2d8274c55
+uuid: 58cf2576-da3e-41a6-8b41-18ea4c492585
 langcode: en
 status: true
 dependencies:
   config:
-    - node.type.status_pages
-id: node.status_pages.promote
+    - node.type.immigration
+id: node.immigration.promote
 field_name: promote
 entity_type: node
-bundle: status_pages
+bundle: immigration
 label: 'Promoted to front page'
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value:
   -
     value: 0
