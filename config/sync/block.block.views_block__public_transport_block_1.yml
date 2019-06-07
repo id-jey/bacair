@@ -25,6 +25,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /before-you-fly/public-transport
+    pages: /before-you-fly/to-from-the-airport/public-transport
     negate: false
     context_mapping: {  }
