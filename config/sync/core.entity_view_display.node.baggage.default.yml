@@ -1,0 +1,30 @@
+uuid: 8fb8b032-f084-45e3-ada7-91e158c196be
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.baggage.body
+    - node.type.baggage
+  module:
+    - text
+    - user
+id: node.baggage.default
+targetEntityType: node
+bundle: baggage
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  langcode: true

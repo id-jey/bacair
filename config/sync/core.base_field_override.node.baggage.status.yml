@@ -1,0 +1,22 @@
+uuid: d26ceae5-5e51-462e-a6ab-f833a9fad2f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.baggage
+id: node.baggage.status
+field_name: status
+entity_type: node
+bundle: baggage
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

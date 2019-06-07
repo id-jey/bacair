@@ -1,0 +1,28 @@
+uuid: d90949d8-98a4-43ff-8543-eb7490d257f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_category_image
+    - media.type.image
+    - taxonomy.vocabulary.baggage_regulations_and_allowanc
+id: taxonomy_term.baggage_regulations_and_allowanc.field_category_image
+field_name: field_category_image
+entity_type: taxonomy_term
+bundle: baggage_regulations_and_allowanc
+label: 'Category image'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

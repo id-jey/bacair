@@ -1,0 +1,18 @@
+uuid: 122d2b94-aad2-4f7b-99fc-0af84a68e6d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.baggage
+id: node.baggage.title
+field_name: title
+entity_type: node
+bundle: baggage
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

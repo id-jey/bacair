@@ -1,0 +1,22 @@
+uuid: 62ce8bc2-0aff-4ef8-a79a-1fcc48190550
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.baggage
+id: node.baggage.promote
+field_name: promote
+entity_type: node
+bundle: baggage
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
