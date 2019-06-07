@@ -1,0 +1,20 @@
+uuid: 4b144026-8df8-448a-9c26-c637702d94c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.baggage
+id: node.baggage.uid
+field_name: uid
+entity_type: node
+bundle: baggage
+label: 'Authored by'
+description: 'The username of the content author.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

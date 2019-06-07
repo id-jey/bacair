@@ -1,0 +1,8 @@
+uuid: d3448f45-1e7e-438c-8be2-cfc5b9f53983
+langcode: en
+status: true
+dependencies: {  }
+name: 'Baggage regulations and allowance'
+vid: baggage_regulations_and_allowanc
+description: ''
+weight: 0

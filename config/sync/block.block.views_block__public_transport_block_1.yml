@@ -1,0 +1,30 @@
+uuid: 1f85b6db-52a6-4d1a-ab6c-ef30ab084640
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.public_transport
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap_bac
+id: views_block__public_transport_block_1
+theme: bootstrap_bac
+region: wrapper_menu_content
+weight: 0
+provider: null
+plugin: 'views_block:public_transport-block_1'
+settings:
+  id: 'views_block:public_transport-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /before-you-fly/to-from-the-airport/public-transport
+    negate: false
+    context_mapping: {  }

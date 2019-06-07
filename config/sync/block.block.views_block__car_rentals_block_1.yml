@@ -1,0 +1,30 @@
+uuid: d86c92d2-9f40-4683-9cda-0fff18a71401
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.car_rentals
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap_bac
+id: views_block__car_rentals_block_1
+theme: bootstrap_bac
+region: wrapper_menu_content
+weight: 0
+provider: null
+plugin: 'views_block:car_rentals-block_1'
+settings:
+  id: 'views_block:car_rentals-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /before-you-fly/to-from-the-airport/car-rentals
+    negate: false
+    context_mapping: {  }
