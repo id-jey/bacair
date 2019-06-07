@@ -2,6 +2,11 @@
   @include navbar-wrapper();
   background-color: unset;
   border: none;
+  #navbar-collapse {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+  }
   .navbar-header {
     width: 100%;
     height: 95px;
@@ -20,16 +25,16 @@
         padding-left: 10px;
         height: 25px;
         .to-traveller {
-          width: 207px;
+          width: 220px;
           height: 27px;
           color: $red-title;
           padding: 6px 0 0 36px;
           background-image: url("../images/switch-to-traveller.gif");
           background-position: left top;
           background-repeat: no-repeat;
+          background-size: 220px 70px;
           &:hover {
             background-position: left bottom;
-            height: 25px;
           }
         }
         .to-corporate {
