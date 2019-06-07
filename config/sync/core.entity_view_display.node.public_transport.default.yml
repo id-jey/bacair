@@ -1,0 +1,32 @@
+uuid: e04fe2f9-0ca4-4a22-80d3-fa3419355ebe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.public_transport.body
+    - field.field.node.public_transport.field_category_image
+    - node.type.public_transport
+  module:
+    - text
+    - user
+id: node.public_transport.default
+targetEntityType: node
+bundle: public_transport
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  addtoany: true
+  field_category_image: true
+  langcode: true

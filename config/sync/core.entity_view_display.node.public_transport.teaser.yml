@@ -1,0 +1,32 @@
+uuid: 9b921584-e13c-4c1a-954a-a023ee4c8199
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.public_transport.body
+    - node.type.public_transport
+  module:
+    - text
+    - user
+id: node.public_transport.teaser
+targetEntityType: node
+bundle: public_transport
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  langcode: true
