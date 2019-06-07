@@ -1,0 +1,18 @@
+uuid: ba6b5c66-6642-47e3-a3d6-32aee7bc8587
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Car park'
+type: car_park
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

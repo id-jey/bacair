@@ -1,0 +1,22 @@
+uuid: a00347f6-0b4b-4dab-8ce7-3767dcf96a36
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: before_you_fly_car_park
+label: 'Before You Fly Car park'
+type: 'canonical_entities:node'
+pattern: '/before-you-fly/to-from-the-airport/car-park/[node:title]'
+selection_criteria:
+  19a75f70-e8c9-46d1-b40f-1d861443b25e:
+    id: node_type
+    bundles:
+      car_park: car_park
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 19a75f70-e8c9-46d1-b40f-1d861443b25e
+selection_logic: and
+weight: -5
+relationships: {  }

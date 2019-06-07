@@ -1,0 +1,22 @@
+uuid: 134dd484-4801-4aa3-b8db-87a08a555e99
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.car_park
+  module:
+    - text
+id: node.car_park.body
+field_name: body
+entity_type: node
+bundle: car_park
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
