@@ -1,0 +1,22 @@
+uuid: 701a3384-85c1-4fbc-a6e7-c94ad231e844
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: before_you_fly_public_transport
+label: 'Before You Fly Public Transport'
+type: 'canonical_entities:node'
+pattern: '/before-you-fly/public-transport/[node:title]'
+selection_criteria:
+  a784923d-2f26-4e8b-a319-bcc90584e575:
+    id: node_type
+    bundles:
+      public_transport: public_transport
+    negate: false
+    context_mapping:
+      node: node
+    uuid: a784923d-2f26-4e8b-a319-bcc90584e575
+selection_logic: and
+weight: -5
+relationships: {  }
