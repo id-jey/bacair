@@ -1,0 +1,32 @@
+uuid: 0c035fdd-b3ba-426f-9688-9e8049a1bd8f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.car_park.body
+    - field.field.node.car_park.field_category_image
+    - node.type.car_park
+  module:
+    - text
+    - user
+id: node.car_park.default
+targetEntityType: node
+bundle: car_park
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  addtoany: true
+  field_category_image: true
+  langcode: true
