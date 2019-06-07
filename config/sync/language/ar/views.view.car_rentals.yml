@@ -1,0 +1,25 @@
+label: 'تأجير السيارات'
+display:
+  default:
+    display_options:
+      fields:
+        field_p_o_box:
+          alter:
+            text: 'مربع الرسالة {{ field_p_o_box }}'
+        field_airport_office_tel_no_:
+          alter:
+            text: 'مكتب المطار لا. {{ field_airport_office_tel_no_ }}'
+        field_fax_no_:
+          alter:
+            text: 'فاكس رقم. {{ field_fax_no_ }}'
+        field_e_mail:
+          alter:
+            text: 'البريد الإلكتروني: {{ field_e_mail }}'
+        field_website:
+          alter:
+            text: 'موقع الكتروني: {{ field_website }}'
+      title: 'تأجير السيارات'
+  block_1:
+    display_title: 'تأجير السيارات'
+    display_options:
+      block_description: 'تأجير السيارات'

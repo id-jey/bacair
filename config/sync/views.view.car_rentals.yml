@@ -251,7 +251,7 @@ display:
           delta_offset: 0
           delta_reversed: false
           delta_first_last: false
-          multi_type: separator
+          multi_type: ul
           separator: ', '
           field_api_classes: false
           plugin_id: field
@@ -443,7 +443,7 @@ display:
           delta_offset: 0
           delta_reversed: false
           delta_first_last: false
-          multi_type: separator
+          multi_type: ul
           separator: ', '
           field_api_classes: false
           plugin_id: field
@@ -470,7 +470,20 @@ display:
           plugin_id: bundle
       sorts: {  }
       title: 'Car rentals'
-      header: {  }
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content:
+            value: "<p class=\"pub-page-sub-slogan\">The rental car desks are located conveniently in the public arrivals concourse on the ground floor of the terminal.</p>\r\n"
+            format: full_html
+          plugin_id: text
       footer: {  }
       empty: {  }
       relationships: {  }
@@ -492,10 +505,12 @@ display:
   block_1:
     display_plugin: block
     id: block_1
-    display_title: Block
+    display_title: 'Car rentals'
     position: 1
     display_options:
       display_extenders: {  }
+      block_description: 'Car Rentals'
+      display_description: ''
     cache_metadata:
       max-age: -1
       contexts:
