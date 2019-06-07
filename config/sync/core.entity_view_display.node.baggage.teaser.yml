@@ -1,0 +1,32 @@
+uuid: fef4fde4-a0a1-47f5-ad27-a81151895e3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.baggage.body
+    - node.type.baggage
+  module:
+    - text
+    - user
+id: node.baggage.teaser
+targetEntityType: node
+bundle: baggage
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  langcode: true

@@ -1,0 +1,18 @@
+uuid: b22a55df-9eda-4b52-96e5-f31df175ec76
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.baggage_regulations_and_allowanc
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.baggage_regulations_and_allowanc
+target_entity_type_id: taxonomy_term
+target_bundle: baggage_regulations_and_allowanc
+default_langcode: site_default
+language_alterable: true
