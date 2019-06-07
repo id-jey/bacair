@@ -1,0 +1,100 @@
+uuid: e793c94b-7bea-4058-952d-b4eba1800d3a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.car_rentals.field_airport_office_tel_no_
+    - field.field.taxonomy_term.car_rentals.field_e_mail
+    - field.field.taxonomy_term.car_rentals.field_fax_no_
+    - field.field.taxonomy_term.car_rentals.field_main_office_tel_no_
+    - field.field.taxonomy_term.car_rentals.field_p_o_box
+    - field.field.taxonomy_term.car_rentals.field_service_image
+    - field.field.taxonomy_term.car_rentals.field_website
+    - taxonomy.vocabulary.car_rentals
+  module:
+    - link
+    - media_library
+    - path
+id: taxonomy_term.car_rentals.default
+targetEntityType: taxonomy_term
+bundle: car_rentals
+mode: default
+content:
+  field_airport_office_tel_no_:
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_e_mail:
+    weight: 8
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_fax_no_:
+    weight: 6
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_main_office_tel_no_:
+    weight: 7
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_p_o_box:
+    weight: 4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_service_image:
+    type: media_library_widget
+    weight: 3
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+    region: content
+  field_website:
+    weight: 9
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  langcode:
+    type: language_select
+    weight: 1
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  description: true

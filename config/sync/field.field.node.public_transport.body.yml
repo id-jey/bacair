@@ -1,0 +1,22 @@
+uuid: 1d9e7c92-d45f-47fd-b425-d4b9e7cab60d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.public_transport
+  module:
+    - text
+id: node.public_transport.body
+field_name: body
+entity_type: node
+bundle: public_transport
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

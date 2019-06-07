@@ -1,0 +1,262 @@
+#superfish-main-menu-corporate- {
+  background-image: url("../images/navigation-background.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  height: 56px;
+  margin-bottom: 0;
+  width: 950px;
+  background-size: 952px 56px;
+  margin-top: -26px;
+  display: flex;
+  justify-content: space-around;
+  li {
+    height: 100%;
+    background: none;
+  }
+  .sfHover:hover {
+    ul {
+      top: 3.5em;
+    }
+  }
+  li.sf-depth-1.menuparent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 88%;
+    margin: 2px 2px 0;
+
+    &:hover {
+      background-color: rgb(255, 255, 255);
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+    }
+
+    &:first-child {
+      width: 20%;
+    }
+
+    &:nth-child(2) {
+      width: 30%;
+    }
+
+    &:nth-child(3) {
+      width: 30%;
+    }
+
+    &:last-child {
+      width: 20%;
+    }
+
+    a.sf-depth-1.menuparent {
+      color: #767676;
+      font-weight: bold;
+      text-transform: uppercase;
+      display: inline-block;
+      font-size: 16px;
+      text-decoration: none;
+
+      &:hover {
+        background-image: url("../images/hover-arrow-nav-menu.png");
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-color: unset;
+      }
+
+      &:focus {
+        background-color: unset;
+      }
+    }
+
+    ul {
+      width: 546px !important;
+      background-image: url("../images/sub-menu-bottom.png");
+      background-repeat: no-repeat;
+      background-position: right bottom;
+      background-color: rgb(255, 255, 255);
+      background-size: 100% 41px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      padding-left: 18px;
+      padding-top: 26px;
+      &:nth-child(1),
+      &:nth-child(2),
+      &:nth-child(3) {
+        padding-bottom: 41px;
+      }
+      li {
+        min-height: 30px;
+        width: 254px;
+        background-image: url("../images/sub-menu-li-bg.png");
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        background-size: 254px 100%;
+        display: flex;
+        align-items: center;
+        margin-top: -2px;
+        &:last-child {
+          margin-bottom: 10px;
+        }
+
+        a {
+          display: block;
+          font-size: 15px;
+          margin: 0;
+          text-align: left;
+          width: 247px;
+          padding: 3px 0 3px 7px;
+          color: #666666;
+          text-decoration: none;
+          text-transform: uppercase;
+          font-weight: bold;
+
+          &:hover {
+            background-color: unset;
+          }
+        }
+      }
+    }
+  }
+  // Submenu of first link (About Us).
+  li.sf-depth-1.menuparent:nth-child(1) {
+    a.sf-depth-1.menuparent {
+      &:hover {
+        color: $red-title;
+      }
+    }
+    ul {
+      li {
+        a:hover {
+          color: $red-title;
+        }
+        &:last-child {
+          background-image: unset;
+          display: block;
+          width: 240px;
+          height: 112px;
+          position: absolute;
+          right: 20px;
+          a {
+            line-height: 0;
+            font-size: 0;
+            color: transparent;
+            margin-bottom: 10px;
+            background-image: url("../images/awards-menu.png");
+            background-size: cover;
+            background-position: center;
+            display: block;
+            width: 240px;
+            height: 112px;
+          }
+        }
+      }
+    }
+  }
+  // Submenu of second link (Airline Development).
+  li.sf-depth-1.menuparent:nth-child(2) {
+    a.sf-depth-1.menuparent {
+      &:hover {
+        color: $orange-title;
+      }
+    }
+    ul {
+      li {
+        a:hover {
+          color: $orange-title;
+        }
+      }
+    }
+  }
+  // Submenu of third link (Business Opportunities).
+  li.sf-depth-1.menuparent:nth-child(3) {
+    a.sf-depth-1.menuparent {
+      &:hover {
+        color: $blue-title;
+      }
+    }
+    ul {
+      li {
+        a:hover {
+          color: $blue-title;
+        }
+        &:last-child {
+          background-image: unset;
+          display: block;
+          width: 240px;
+          height: 112px;
+          position: absolute;
+          right: 20px;
+          a {
+            line-height: 0;
+            font-size: 0;
+            color: transparent;
+            margin-bottom: 10px;
+            background-image: url("../images/Traveller-Menu-callout.png");
+            background-size: cover;
+            background-position: center;
+            display: block;
+            width: 240px;
+            height: 112px;
+          }
+        }
+      }
+    }
+  }
+  // Submenu of fourth link (Media center).
+  li.sf-depth-1.menuparent:nth-child(4) {
+    a.sf-depth-1.menuparent {
+      &:hover {
+        color: $pink-title;
+      }
+    }
+    ul {
+      padding-bottom: 116px;
+      li {
+        a:hover {
+          color: $pink-title;
+        }
+        &:nth-child(7) {
+          background-image: unset;
+          display: block;
+          width: 240px;
+          height: 112px;
+          position: absolute;
+          right: 20px;
+          a {
+            line-height: 0;
+            font-size: 0;
+            color: transparent;
+            margin-bottom: 10px;
+            background-image: url("../images/news.png");
+            background-size: cover;
+            background-position: center;
+            display: block;
+            width: 240px;
+            height: 112px;
+          }
+        }
+        &:last-child {
+          background-image: unset;
+          display: block;
+          width: 240px;
+          height: 112px;
+          position: absolute;
+          right: 20px;
+          top: 166px;
+          a {
+            line-height: 0;
+            font-size: 0;
+            color: transparent;
+            margin-bottom: 10px;
+            background-image: url("../images/filming.png");
+            background-size: cover;
+            background-position: center;
+            display: block;
+            width: 240px;
+            height: 112px;
+          }
+        }
+      }
+    }
+  }
+}

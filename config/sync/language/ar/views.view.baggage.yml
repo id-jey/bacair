@@ -1,0 +1,8 @@
+label: أمتعة
+display:
+  default:
+    display_options:
+      fields:
+        view_node:
+          text: 'قراءة المزيد...  〉'
+      title: أمتعة

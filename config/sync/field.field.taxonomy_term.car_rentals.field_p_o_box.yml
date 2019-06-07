@@ -1,0 +1,19 @@
+uuid: bf317ab3-fbeb-4191-8162-d987d8f3694a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_p_o_box
+    - taxonomy.vocabulary.car_rentals
+id: taxonomy_term.car_rentals.field_p_o_box
+field_name: field_p_o_box
+entity_type: taxonomy_term
+bundle: car_rentals
+label: P.O.Box
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

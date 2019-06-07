@@ -1,0 +1,19 @@
+uuid: 8c8c0401-a0d2-4fb7-be87-a67910ae737c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_fax_no_
+    - taxonomy.vocabulary.car_rentals
+id: taxonomy_term.car_rentals.field_fax_no_
+field_name: field_fax_no_
+entity_type: taxonomy_term
+bundle: car_rentals
+label: 'Fax No.'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

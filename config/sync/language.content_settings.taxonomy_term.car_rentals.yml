@@ -1,0 +1,18 @@
+uuid: 30b7e70f-4636-4231-9fc9-d9bda255c941
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.car_rentals
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.car_rentals
+target_entity_type_id: taxonomy_term
+target_bundle: car_rentals
+default_langcode: site_default
+language_alterable: true

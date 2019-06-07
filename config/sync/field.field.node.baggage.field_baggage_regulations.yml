@@ -1,0 +1,57 @@
+uuid: 5d478015-ef23-4237-939a-3b08b435007c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_baggage_regulations
+    - node.type.baggage
+  module:
+    - viewfield
+id: node.baggage.field_baggage_regulations
+field_name: field_baggage_regulations
+entity_type: node
+bundle: baggage
+label: 'Baggage regulations'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  force_default: 0
+  allowed_views:
+    baggage_regulations_and_allowance: baggage_regulations_and_allowance
+    about_us_block: 0
+    airline_development_: 0
+    business_opportunities: 0
+    car_rentals: 0
+    comment: 0
+    content: 0
+    corporate_homepage_slider: 0
+    block_content: 0
+    files: 0
+    frontpage: 0
+    immigration: 0
+    latest_photo: 0
+    media: 0
+    media_library: 0
+    user_admin_people: 0
+    photo_gallery: 0
+    publications: 0
+    comments_recent: 0
+    content_recent: 0
+    taxonomy_term: 0
+    video_gallery: 0
+    watchdog: 0
+    webform_submissions: 0
+    who_s_new: 0
+    who_s_online: 0
+  allowed_display_types:
+    block: block
+    embed: 0
+    feed: 0
+    default: 0
+    page: 0
+  handler: 'default:view'
+  handler_settings: {  }
+field_type: viewfield

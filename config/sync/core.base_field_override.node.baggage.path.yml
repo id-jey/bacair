@@ -1,0 +1,20 @@
+uuid: 90eafeca-e5b9-476f-894f-884781d807ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.baggage
+  module:
+    - path
+id: node.baggage.path
+field_name: path
+entity_type: node
+bundle: baggage
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

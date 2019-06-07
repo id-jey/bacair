@@ -1,0 +1,90 @@
+uuid: 2f2aa3b1-d90d-4791-a8ea-3c005f84f051
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.car_rentals.field_airport_office_tel_no_
+    - field.field.taxonomy_term.car_rentals.field_e_mail
+    - field.field.taxonomy_term.car_rentals.field_fax_no_
+    - field.field.taxonomy_term.car_rentals.field_main_office_tel_no_
+    - field.field.taxonomy_term.car_rentals.field_p_o_box
+    - field.field.taxonomy_term.car_rentals.field_service_image
+    - field.field.taxonomy_term.car_rentals.field_website
+    - taxonomy.vocabulary.car_rentals
+  module:
+    - link
+    - text
+id: taxonomy_term.car_rentals.default
+targetEntityType: taxonomy_term
+bundle: car_rentals
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_airport_office_tel_no_:
+    weight: 3
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_e_mail:
+    weight: 6
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_fax_no_:
+    weight: 4
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_main_office_tel_no_:
+    weight: 5
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_p_o_box:
+    weight: 2
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_service_image:
+    type: entity_reference_entity_view
+    weight: 1
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_website:
+    weight: 7
+    label: inline
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden:
+  langcode: true

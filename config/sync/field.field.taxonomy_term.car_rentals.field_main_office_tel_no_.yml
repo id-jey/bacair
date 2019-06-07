@@ -1,0 +1,19 @@
+uuid: fdc645cb-701b-4859-a35b-0c6a7a26e09e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_main_office_tel_no_
+    - taxonomy.vocabulary.car_rentals
+id: taxonomy_term.car_rentals.field_main_office_tel_no_
+field_name: field_main_office_tel_no_
+entity_type: taxonomy_term
+bundle: car_rentals
+label: 'Main Office Tel. No.'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

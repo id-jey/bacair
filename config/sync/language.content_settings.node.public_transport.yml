@@ -1,0 +1,18 @@
+uuid: 76bb5573-409a-4d70-bc3a-ac0327cf724b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.public_transport
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.public_transport
+target_entity_type_id: node
+target_bundle: public_transport
+default_langcode: site_default
+language_alterable: true
