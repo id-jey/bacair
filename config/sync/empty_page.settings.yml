@@ -1,4 +1,4 @@
-new_id: 17
+new_id: 18
 _core:
   default_config_hash: 1qKVk03zhLAZj-W36dakmXWDO3mx28TRgx9iDzHpqMs
 callback_1:
@@ -85,3 +85,9 @@ callback_16:
   updated: 1559884817
   path: /before-you-fly/to-from-the-airport/car-rentals
   page_title: 'Car rentals'
+callback_17:
+  created: 1559889194
+  cid: 17
+  updated: 1559889194
+  path: /before-you-fly/baggage
+  page_title: Baggage

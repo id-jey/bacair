@@ -4,10 +4,14 @@ status: true
 dependencies:
   config:
     - field.field.node.baggage.body
+    - field.field.node.baggage.field_baggage_regulations
+    - field.field.node.baggage.field_category_image
     - node.type.baggage
   module:
+    - media_library
     - path
     - text
+    - viewfield
 id: node.baggage.default
 targetEntityType: node
 bundle: baggage
@@ -28,6 +32,19 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_baggage_regulations:
+    weight: 122
+    settings: {  }
+    third_party_settings: {  }
+    type: viewfield_select
+    region: content
+  field_category_image:
+    weight: 123
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+    type: media_library_widget
+    region: content
   langcode:
     type: language_select
     weight: 2

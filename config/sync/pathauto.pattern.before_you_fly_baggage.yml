@@ -1,0 +1,22 @@
+uuid: 9cb0ed76-94bf-4eb1-8f9e-c970fa19ad7c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: before_you_fly_baggage
+label: 'Before You Fly Baggage'
+type: 'canonical_entities:node'
+pattern: '/before-you-fly/baggage/[node:title]'
+selection_criteria:
+  24dc3f9a-2931-4827-9d3d-bf525f336a4e:
+    id: node_type
+    bundles:
+      baggage: baggage
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 24dc3f9a-2931-4827-9d3d-bf525f336a4e
+selection_logic: and
+weight: -5
+relationships: {  }
